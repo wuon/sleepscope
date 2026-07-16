@@ -1,0 +1,15 @@
+{
+  "id": "2026-07-12-fitbit-dummy",
+  "date": "2026-07-12",
+  "notes": "Placeholder SleepScope sensor CSV for pipeline smoke test (replace with a real overnight recording)",
+  "reference": {
+    "provider": "sleepscope",
+    "path": "../raw/sleepscope/dummy-2026-07-12.csv"
+  },
+  "comparisons": [
+    {
+      "provider": "fitbit",
+      "path": "../raw/fitbit/dataset-1.json"
+    }
+  ]
+}

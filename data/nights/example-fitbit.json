@@ -1,0 +1,15 @@
+{
+  "id": "example-fitbit",
+  "date": "2026-07-08",
+  "notes": "Replace paths with real overnight exports",
+  "reference": {
+    "provider": "sleepscope",
+    "path": "../raw/example/sensor.csv"
+  },
+  "comparisons": [
+    {
+      "provider": "fitbit",
+      "path": "../raw/example/fitbit_sleep.json"
+    }
+  ]
+}

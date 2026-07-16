@@ -1,0 +1,15 @@
+{
+  "id": "fixture-night-fitbit",
+  "date": "2026-07-08",
+  "notes": "unit-test fixture",
+  "reference": {
+    "provider": "sleepscope",
+    "path": "sensor_sample.csv"
+  },
+  "comparisons": [
+    {
+      "provider": "fitbit",
+      "path": "fitbit_sample.json"
+    }
+  ]
+}
