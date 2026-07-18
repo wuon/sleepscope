@@ -3,32 +3,30 @@ from __future__ import annotations
 
 import argparse
 import sys
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from sleep_analyzer.inference.emit import infer_and_write, infer_sleepscope_epochs
+from sleep_analyzer.inference.emit import infer_and_write, infer_phone_stages_from_csv
+from sleep_analyzer.timeline import BinaryLabel, PhoneStage, collapse_phone_timeline, minutes_for_label
 
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description=(
-            "Infer SleepScope stage epochs from a phone-sensor prototype CSV "
-            "(accel, gyro, mic dB)."
+            "Infer 30s Awake/Restless/QuietSleep stages from a SleepScope sensor CSV, "
+            "then collapse to Sleep/Awake for comparison."
         )
     )
-    parser.add_argument(
-        "csv",
-        type=Path,
-        help="Prototype sensor CSV with # metadata headers and Timestamp/IMU/dB/Event columns",
-    )
+    parser.add_argument("csv", type=Path, help="Prototype sensor CSV")
     parser.add_argument(
         "--out",
         type=Path,
         required=True,
-        help="Write SleepScope-shaped epoch JSON to this path",
+        help="Write phone-stage epoch JSON to this path",
     )
     return parser
 
@@ -38,21 +36,26 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     try:
-        epochs = infer_sleepscope_epochs(args.csv)
+        timeline = infer_phone_stages_from_csv(args.csv)
         path = infer_and_write(args.csv, args.out)
     except (OSError, ValueError) as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 1
 
-    stage_counts: dict[str, int] = {}
-    for epoch in epochs:
-        stage_counts[epoch["state"]] = stage_counts.get(epoch["state"], 0) + 1
+    counts = Counter(epoch.label for epoch in timeline.epochs)
+    binary = collapse_phone_timeline(timeline)
+    asleep = minutes_for_label(binary, BinaryLabel.SLEEP.value)
+    awake = minutes_for_label(binary, BinaryLabel.AWAKE.value)
 
-    print(f"Wrote {len(epochs)} epoch(s) to {path}")
-    for state in ("Awake", "Light", "Deep", "REM"):
-        count = stage_counts.get(state, 0)
-        minutes = count * 2.0
-        print(f"  {state}: {count} epochs ({minutes:.0f} min)")
+    print(f"Wrote {len(timeline)} epoch(s) to {path}")
+    for stage in (
+        PhoneStage.AWAKE.value,
+        PhoneStage.RESTLESS.value,
+        PhoneStage.QUIET_SLEEP.value,
+    ):
+        count = counts.get(stage, 0)
+        print(f"  {stage}: {count} bins ({count * 0.5:.1f} min)")
+    print(f"  Binary → Sleep {asleep:.1f} min · Awake {awake:.1f} min")
     return 0
 
 

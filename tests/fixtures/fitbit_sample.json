@@ -3,28 +3,25 @@
     {
       "logId": 1,
       "isMainSleep": true,
-      "startTime": "2026-07-08T23:00:00.000",
-      "endTime": "2026-07-08T23:16:00.000",
-      "duration": 960000,
-      "timeInBed": 16,
-      "minutesAsleep": 12,
-      "minutesAwake": 4,
+      "startTime": "2026-07-12T01:00:00.000",
+      "endTime": "2026-07-12T02:00:00.000",
+      "duration": 3600000,
+      "timeInBed": 60,
       "type": "stages",
       "levels": {
-        "summary": {
-          "deep": {"count": 1, "minutes": 4, "thirtyDayAvgMinutes": 4},
-          "light": {"count": 2, "minutes": 6, "thirtyDayAvgMinutes": 6},
-          "rem": {"count": 1, "minutes": 2, "thirtyDayAvgMinutes": 2},
-          "wake": {"count": 2, "minutes": 4, "thirtyDayAvgMinutes": 4}
-        },
         "data": [
-          {"dateTime": "2026-07-08T23:00:00.000", "level": "wake", "seconds": 120},
-          {"dateTime": "2026-07-08T23:02:00.000", "level": "light", "seconds": 240},
-          {"dateTime": "2026-07-08T23:06:00.000", "level": "deep", "seconds": 240},
-          {"dateTime": "2026-07-08T23:10:00.000", "level": "rem", "seconds": 120},
-          {"dateTime": "2026-07-08T23:12:00.000", "level": "light", "seconds": 120},
-          {"dateTime": "2026-07-08T23:14:00.000", "level": "wake", "seconds": 120}
-        ]
+          {"dateTime": "2026-07-12T01:00:00.000", "level": "wake", "seconds": 600},
+          {"dateTime": "2026-07-12T01:10:00.000", "level": "light", "seconds": 1200},
+          {"dateTime": "2026-07-12T01:30:00.000", "level": "deep", "seconds": 900},
+          {"dateTime": "2026-07-12T01:45:00.000", "level": "rem", "seconds": 600},
+          {"dateTime": "2026-07-12T01:55:00.000", "level": "wake", "seconds": 300}
+        ],
+        "summary": {
+          "deep": {"count": 1, "minutes": 15},
+          "light": {"count": 1, "minutes": 20},
+          "rem": {"count": 1, "minutes": 10},
+          "wake": {"count": 2, "minutes": 15}
+        }
       }
     }
   ]

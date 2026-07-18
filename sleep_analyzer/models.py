@@ -1,119 +1,83 @@
 from __future__ import annotations
 
-from dataclasses import asdict, dataclass
-from datetime import datetime
+from dataclasses import dataclass
+from datetime import datetime, timezone
 from typing import Any
 
-
-CANONICAL_STAGES = ("deep", "light", "rem", "awake")
+from sleep_analyzer.timeline import BinaryLabel, EpochTimeline, minutes_for_label
 
 
 @dataclass(frozen=True)
-class SessionMetrics:
-    """Normalized session-level sleep metrics shared across providers."""
+class BinarySession:
+    """Provider sleep/wake timeline (30s epochs) plus simple minute totals."""
 
     provider: str
-    start: datetime
-    end: datetime
-    duration_min: float
-    deep_min: float
-    light_min: float
-    rem_min: float
-    awake_min: float
-    asleep_min: float
-    efficiency: float
+    timeline: EpochTimeline
 
-    def stage_pct(self, stage: str) -> float:
-        if self.duration_min <= 0:
-            return 0.0
-        value = getattr(self, f"{stage}_min")
-        return 100.0 * value / self.duration_min
+    @property
+    def start(self) -> datetime:
+        if not self.timeline.epochs:
+            raise ValueError(f"{self.provider}: empty timeline")
+        return self.timeline.start  # type: ignore[return-value]
+
+    @property
+    def end(self) -> datetime:
+        if not self.timeline.epochs:
+            raise ValueError(f"{self.provider}: empty timeline")
+        return self.timeline.end  # type: ignore[return-value]
+
+    @property
+    def duration_min(self) -> float:
+        return len(self.timeline) * 0.5
+
+    @property
+    def asleep_min(self) -> float:
+        return minutes_for_label(self.timeline, BinaryLabel.SLEEP.value)
+
+    @property
+    def awake_min(self) -> float:
+        return minutes_for_label(self.timeline, BinaryLabel.AWAKE.value)
+
+    def to_timeline_rows(self) -> list[dict[str, str]]:
+        rows: list[dict[str, str]] = []
+        for epoch in self.timeline.epochs:
+            start = epoch.start
+            if start.tzinfo is None:
+                start = start.replace(tzinfo=timezone.utc)
+            text = start.astimezone(timezone.utc).isoformat(timespec="milliseconds")
+            rows.append(
+                {
+                    "timestamp": text.replace("+00:00", "Z"),
+                    "state": epoch.label,
+                }
+            )
+        return rows
 
     def to_dict(self) -> dict[str, Any]:
-        payload = asdict(self)
-        payload["start"] = self.start.isoformat()
-        payload["end"] = self.end.isoformat()
-        for stage in CANONICAL_STAGES:
-            payload[f"{stage}_pct"] = self.stage_pct(stage)
-        return payload
-
-
-@dataclass(frozen=True)
-class NightDelta:
-    """Per-night SleepScope − wearable deltas for shared metrics."""
-
-    night_id: str
-    date: str | None
-    comparison_provider: str
-    reference: SessionMetrics
-    comparison: SessionMetrics
-    duration_min_delta: float
-    deep_min_delta: float
-    light_min_delta: float
-    rem_min_delta: float
-    awake_min_delta: float
-    asleep_min_delta: float
-    efficiency_delta: float
-    deep_pct_delta: float
-    light_pct_delta: float
-    rem_pct_delta: float
-    awake_pct_delta: float
-    start_abs_min_delta: float
-    end_abs_min_delta: float
-    notes: str | None = None
-
-    def to_row(self) -> dict[str, Any]:
         return {
-            "night_id": self.night_id,
-            "date": self.date,
-            "comparison_provider": self.comparison_provider,
-            "notes": self.notes,
-            "ref_provider": self.reference.provider,
-            "ref_start": self.reference.start.isoformat(),
-            "ref_end": self.reference.end.isoformat(),
-            "ref_duration_min": self.reference.duration_min,
-            "ref_deep_min": self.reference.deep_min,
-            "ref_light_min": self.reference.light_min,
-            "ref_rem_min": self.reference.rem_min,
-            "ref_awake_min": self.reference.awake_min,
-            "ref_asleep_min": self.reference.asleep_min,
-            "ref_efficiency": self.reference.efficiency,
-            "cmp_provider": self.comparison.provider,
-            "cmp_start": self.comparison.start.isoformat(),
-            "cmp_end": self.comparison.end.isoformat(),
-            "cmp_duration_min": self.comparison.duration_min,
-            "cmp_deep_min": self.comparison.deep_min,
-            "cmp_light_min": self.comparison.light_min,
-            "cmp_rem_min": self.comparison.rem_min,
-            "cmp_awake_min": self.comparison.awake_min,
-            "cmp_asleep_min": self.comparison.asleep_min,
-            "cmp_efficiency": self.comparison.efficiency,
-            "duration_min_delta": self.duration_min_delta,
-            "deep_min_delta": self.deep_min_delta,
-            "light_min_delta": self.light_min_delta,
-            "rem_min_delta": self.rem_min_delta,
-            "awake_min_delta": self.awake_min_delta,
-            "asleep_min_delta": self.asleep_min_delta,
-            "efficiency_delta": self.efficiency_delta,
-            "deep_pct_delta": self.deep_pct_delta,
-            "light_pct_delta": self.light_pct_delta,
-            "rem_pct_delta": self.rem_pct_delta,
-            "awake_pct_delta": self.awake_pct_delta,
-            "start_abs_min_delta": self.start_abs_min_delta,
-            "end_abs_min_delta": self.end_abs_min_delta,
+            "provider": self.provider,
+            "start": self.start.isoformat(),
+            "end": self.end.isoformat(),
+            "duration_min": self.duration_min,
+            "asleep_min": self.asleep_min,
+            "awake_min": self.awake_min,
+            "epochs": self.to_timeline_rows(),
         }
 
 
 @dataclass(frozen=True)
-class MetricRollup:
-    metric: str
-    n: int
-    mean_bias: float
-    mae: float
-    rmse: float
-    pearson_r: float | None
-    spearman_r: float | None
-    exploratory: bool
+class NightComparison:
+    """Paired SleepScope vs Fitbit binary timelines for one night."""
+
+    night_id: str
+    reference: BinarySession
+    comparison: BinarySession
+    date: str | None = None
+    notes: str | None = None
+
+    @property
+    def comparison_provider(self) -> str:
+        return self.comparison.provider
 
 
 @dataclass(frozen=True)

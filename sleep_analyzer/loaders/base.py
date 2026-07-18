@@ -3,14 +3,14 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Protocol
 
-from sleep_analyzer.models import SessionMetrics
+from sleep_analyzer.models import BinarySession
 
 
 class SessionLoader(Protocol):
     name: str
 
-    def load(self, path: Path) -> SessionMetrics:
-        """Load a provider export into canonical SessionMetrics."""
+    def load(self, path: Path) -> BinarySession:
+        """Load a provider export into a binary Sleep/Awake session."""
 
 
 _REGISTRY: dict[str, SessionLoader] = {}

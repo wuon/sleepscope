@@ -13,18 +13,16 @@ if str(ROOT) not in sys.path:
 from sleep_analyzer.compare import compare_many, discover_inputs
 from sleep_analyzer.report import (
     format_console_report,
-    rollup_by_provider,
-    write_csv,
-    write_plots,
-    write_rollup_csv,
+    write_comparison_timelines,
+    write_hypnogram_plots,
 )
 
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description=(
-            "Compare SleepScope session metrics against a wearable "
-            "(Fitbit in v1) using night manifests."
+            "Compare SleepScope vs Fitbit Sleep/Awake timelines and write a "
+            "condensed hypnogram."
         )
     )
     parser.add_argument(
@@ -35,17 +33,12 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--out",
         type=Path,
-        help="Write per-night comparison CSV to this path",
-    )
-    parser.add_argument(
-        "--rollup-out",
-        type=Path,
-        help="Write provider rollup CSV to this path",
+        help="Directory for the two timeline JSON outputs (SleepScope + Fitbit)",
     )
     parser.add_argument(
         "--plots",
         type=Path,
-        help="Directory for scatter and Bland-Altman plots (deep_min, rem_min, efficiency)",
+        help="Directory for condensed Awake/Sleep comparison hypnograms",
     )
     return parser
 
@@ -56,27 +49,25 @@ def main(argv: list[str] | None = None) -> int:
 
     try:
         manifest_paths = discover_inputs(args.input)
-        deltas = compare_many(manifest_paths)
+        comparisons = compare_many(manifest_paths)
     except (OSError, ValueError, KeyError, json.JSONDecodeError) as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 1
 
-    if not deltas:
+    if not comparisons:
         print("No comparisons produced.", file=sys.stderr)
         return 1
 
-    rollups = rollup_by_provider(deltas)
-    print(format_console_report(deltas, rollups), end="")
+    print(format_console_report(comparisons), end="")
 
     if args.out:
-        write_csv(deltas, args.out)
-        print(f"Wrote per-night CSV: {args.out}")
-    if args.rollup_out:
-        write_rollup_csv(rollups, args.rollup_out)
-        print(f"Wrote rollup CSV: {args.rollup_out}")
+        written = write_comparison_timelines(comparisons, args.out)
+        for path in written:
+            print(f"Wrote timeline: {path}")
     if args.plots:
-        written = write_plots(deltas, args.plots)
-        print(f"Wrote {len(written)} plot(s) to {args.plots}")
+        plots = write_hypnogram_plots(comparisons, args.plots)
+        for path in plots:
+            print(f"Wrote hypnogram: {path}")
 
     return 0
 

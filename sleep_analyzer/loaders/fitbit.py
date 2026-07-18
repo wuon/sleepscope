@@ -1,58 +1,42 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
 
 from sleep_analyzer.loaders.base import register_loader
-from sleep_analyzer.metrics import build_session_metrics
-from sleep_analyzer.models import SessionMetrics
-
-FITBIT_STAGE_MAP = {
-    "deep": "deep",
-    "light": "light",
-    "rem": "rem",
-    "wake": "awake",
-    "awake": "awake",
-    "asleep": "light",  # classic sleep logs
-    "restless": "light",
-}
+from sleep_analyzer.metrics import build_binary_session
+from sleep_analyzer.models import BinarySession
+from sleep_analyzer.timeline import (
+    BinaryLabel,
+    Epoch,
+    EpochTimeline,
+    Interval,
+    paint_binary_from_wearable_intervals,
+    wearable_to_binary,
+)
 
 
 class FitbitLoader:
     name = "fitbit"
 
-    def load(self, path: Path) -> SessionMetrics:
+    def load(self, path: Path) -> BinarySession:
         path = Path(path)
         with path.open(encoding="utf-8") as handle:
             payload = json.load(handle)
 
         sleep_log = _extract_main_sleep_log(payload, path)
-        start = _parse_fitbit_datetime(
-            sleep_log.get("startTime") or sleep_log.get("startDate"),
-            path,
-            field="startTime",
-        )
-        end = _parse_fitbit_datetime(
-            sleep_log.get("endTime") or sleep_log.get("endDate"),
-            path,
-            field="endTime",
-        )
+        intervals = _intervals_from_levels_data(sleep_log)
+        if intervals:
+            timeline = paint_binary_from_wearable_intervals(intervals)
+            return build_binary_session(
+                provider=self.name,
+                timeline=timeline,
+                binary=True,
+            )
 
-        stage_minutes = _stage_minutes_from_log(sleep_log)
-        duration = _duration_minutes(sleep_log, start, end, stage_minutes)
-
-        return build_session_metrics(
-            provider=self.name,
-            start=start,
-            end=end,
-            deep_min=stage_minutes["deep"],
-            light_min=stage_minutes["light"],
-            rem_min=stage_minutes["rem"],
-            awake_min=stage_minutes["awake"],
-            duration_min=duration,
-        )
+        return _session_from_summary(sleep_log, path)
 
 
 def _extract_main_sleep_log(payload: Any, path: Path) -> dict[str, Any]:
@@ -79,7 +63,6 @@ def _extract_main_sleep_log(payload: Any, path: Path) -> dict[str, Any]:
 
 
 def _is_main_sleep(item: dict[str, Any]) -> bool:
-    # Google Takeout uses mainSleep; Web API uses isMainSleep.
     if "isMainSleep" in item:
         return bool(item["isMainSleep"])
     if "mainSleep" in item:
@@ -98,62 +81,83 @@ def _select_main_sleep(logs: list[Any], path: Path) -> dict[str, Any]:
     def sort_key(item: dict[str, Any]) -> str:
         return str(item.get("startTime") or item.get("dateOfSleep") or "")
 
-    # Prefer the most recent main sleep when a Takeout file contains many nights.
     return max(candidates, key=sort_key)
 
 
-def _stage_minutes_from_log(sleep_log: dict[str, Any]) -> dict[str, float]:
-    stages = {"deep": 0.0, "light": 0.0, "rem": 0.0, "awake": 0.0}
+def _intervals_from_levels_data(sleep_log: dict[str, Any]) -> list[Interval]:
     levels = sleep_log.get("levels")
+    if not isinstance(levels, dict):
+        return []
+    data = levels.get("data")
+    if not isinstance(data, list) or not data:
+        return []
 
-    if isinstance(levels, dict):
-        summary = levels.get("summary")
-        if isinstance(summary, dict) and summary:
-            for key, value in summary.items():
-                canonical = FITBIT_STAGE_MAP.get(str(key).lower())
-                if canonical is None:
-                    continue
-                minutes = _summary_minutes(value)
-                stages[canonical] += minutes
-            if any(stages.values()):
-                return stages
+    intervals: list[Interval] = []
+    for entry in data:
+        if not isinstance(entry, dict):
+            continue
+        level = entry.get("level")
+        seconds = entry.get("seconds")
+        date_time = entry.get("dateTime")
+        if level is None or seconds is None or date_time is None:
+            continue
+        start = _parse_fitbit_datetime(date_time, Path("."), field="dateTime")
+        end = start + timedelta(seconds=float(seconds))
+        intervals.append(Interval(start=start, end=end, label=str(level)))
+    return intervals
 
-        data = levels.get("data")
-        if isinstance(data, list):
-            for entry in data:
-                if not isinstance(entry, dict):
-                    continue
-                level = str(entry.get("level", "")).lower()
-                canonical = FITBIT_STAGE_MAP.get(level)
-                if canonical is None:
-                    continue
-                seconds = entry.get("seconds")
-                if seconds is None:
-                    continue
-                stages[canonical] += float(seconds) / 60.0
-            if any(stages.values()):
-                return stages
 
-    # Top-level summary fields used by some exports / API responses.
-    if "SleepLevelDeep" in sleep_log or "minutesAsleep" in sleep_log:
-        stages["deep"] = float(sleep_log.get("SleepLevelDeep") or sleep_log.get("deep") or 0)
-        stages["light"] = float(
-            sleep_log.get("SleepLevelLight")
-            or sleep_log.get("light")
-            or sleep_log.get("SleepLevelAsleep")
-            or 0
+def _session_from_summary(sleep_log: dict[str, Any], path: Path) -> BinarySession:
+    """Fallback when levels.data is missing: paint contiguous awake/sleep from totals."""
+    start = _parse_fitbit_datetime(
+        sleep_log.get("startTime") or sleep_log.get("startDate"),
+        path,
+        field="startTime",
+    )
+    end = _parse_fitbit_datetime(
+        sleep_log.get("endTime") or sleep_log.get("endDate"),
+        path,
+        field="endTime",
+    )
+
+    asleep = 0.0
+    awake = 0.0
+    levels = sleep_log.get("levels")
+    if isinstance(levels, dict) and isinstance(levels.get("summary"), dict):
+        for key, value in levels["summary"].items():
+            minutes = _summary_minutes(value)
+            if wearable_to_binary(str(key)) == BinaryLabel.SLEEP:
+                asleep += minutes
+            else:
+                awake += minutes
+    elif "minutesAsleep" in sleep_log or "minutesAwake" in sleep_log:
+        asleep = float(sleep_log.get("minutesAsleep") or 0)
+        awake = float(sleep_log.get("minutesAwake") or 0)
+    else:
+        raise ValueError(
+            f"{path}: Fitbit sleep log missing levels.data and usable summary totals"
         )
-        stages["rem"] = float(sleep_log.get("SleepLevelRem") or sleep_log.get("rem") or 0)
-        stages["awake"] = float(
-            sleep_log.get("SleepLevelWake")
-            or sleep_log.get("SleepLevelAwake")
-            or sleep_log.get("minutesAwake")
-            or 0
-        )
-        if any(stages.values()):
-            return stages
 
-    raise ValueError("Fitbit sleep log is missing levels.summary, levels.data, and stage totals")
+    # Simple contiguous layout: initial awake minutes, then sleep, then trailing awake.
+    epochs: list[Epoch] = []
+    cursor = start
+    for _ in range(int(round(awake * 2))):
+        epochs.append(Epoch(start=cursor, label=BinaryLabel.AWAKE.value))
+        cursor = cursor + timedelta(seconds=30)
+    for _ in range(int(round(asleep * 2))):
+        epochs.append(Epoch(start=cursor, label=BinaryLabel.SLEEP.value))
+        cursor = cursor + timedelta(seconds=30)
+    while cursor < end:
+        epochs.append(Epoch(start=cursor, label=BinaryLabel.AWAKE.value))
+        cursor = cursor + timedelta(seconds=30)
+    if not epochs:
+        raise ValueError(f"{path}: could not build Fitbit timeline from summary")
+
+    return build_binary_session(
+        provider="fitbit",
+        timeline=EpochTimeline(epochs=epochs, provider="fitbit"),
+        binary=True,
+    )
 
 
 def _summary_minutes(value: Any) -> float:
@@ -165,45 +169,21 @@ def _summary_minutes(value: Any) -> float:
     return float(value)
 
 
-def _duration_minutes(
-    sleep_log: dict[str, Any],
-    start: datetime,
-    end: datetime,
-    stage_minutes: dict[str, float],
-) -> float:
-    if "timeInBed" in sleep_log and sleep_log["timeInBed"] is not None:
-        return float(sleep_log["timeInBed"])
-    if "duration" in sleep_log and sleep_log["duration"] is not None:
-        # Fitbit Web API duration is milliseconds.
-        duration = float(sleep_log["duration"])
-        if duration > 10_000:
-            return duration / 60_000.0
-        return duration / 60.0
-    span = (end - start).total_seconds() / 60.0
-    if span > 0:
-        return span
-    return sum(stage_minutes.values())
-
-
 def _parse_fitbit_datetime(value: Any, path: Path, *, field: str) -> datetime:
     if value is None:
         raise ValueError(f"{path}: Fitbit sleep log missing '{field}'")
     if not isinstance(value, str):
         raise ValueError(f"{path}: Fitbit '{field}' must be a string")
     text = value.strip().replace("Z", "+00:00")
-    # Fitbit often omits timezone; treat naive as local-wall / UTC-comparable naive→UTC.
     try:
-        parsed = datetime.fromisoformat(text)
+        return datetime.fromisoformat(text)
     except ValueError:
         for fmt in ("%Y-%m-%dT%H:%M:%S.%f", "%Y-%m-%dT%H:%M:%S", "%Y-%m-%d %H:%M:%S"):
             try:
-                parsed = datetime.strptime(text, fmt)
-                break
+                return datetime.strptime(text, fmt)
             except ValueError:
                 continue
-        else:
-            raise ValueError(f"{path}: invalid Fitbit datetime for '{field}': {value}") from None
-    return parsed
+        raise ValueError(f"{path}: invalid Fitbit datetime for '{field}': {value}") from None
 
 
 register_loader(FitbitLoader())

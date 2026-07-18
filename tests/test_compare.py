@@ -3,7 +3,11 @@ from __future__ import annotations
 from pathlib import Path
 
 from sleep_analyzer.compare import compare_many, discover_inputs, parse_night_manifest
-from sleep_analyzer.report import format_console_report, rollup_by_provider, write_plots
+from sleep_analyzer.report import (
+    format_console_report,
+    write_comparison_timelines,
+    write_hypnogram_plots,
+)
 
 FIXTURES = Path(__file__).parent / "fixtures"
 
@@ -11,16 +15,15 @@ FIXTURES = Path(__file__).parent / "fixtures"
 def test_parse_and_compare_night_manifest():
     manifest = parse_night_manifest(FIXTURES / "night_manifest.json")
     assert manifest.reference.provider == "sleepscope"
-    assert manifest.reference.path.endswith(".csv")
     assert manifest.comparisons[0].provider == "fitbit"
 
-    deltas = compare_many([FIXTURES / "night_manifest.json"])
-    assert len(deltas) == 1
-    delta = deltas[0]
-    assert delta.reference.provider == "sleepscope"
-    assert delta.comparison.provider == "fitbit"
-    assert delta.reference.duration_min > 0
-    assert delta.comparison.duration_min > 0
+    comparisons = compare_many([FIXTURES / "night_manifest.json"])
+    assert len(comparisons) == 1
+    item = comparisons[0]
+    assert item.reference.provider == "sleepscope"
+    assert item.comparison.provider == "fitbit"
+    assert item.reference.duration_min > 0
+    assert item.comparison.asleep_min > 0
 
 
 def test_discover_directory():
@@ -28,14 +31,16 @@ def test_discover_directory():
     assert paths == [FIXTURES / "night_manifest.json"]
 
 
-def test_rollup_and_report(tmp_path: Path):
-    deltas = compare_many([FIXTURES / "night_manifest.json"])
-    rollups = rollup_by_provider(deltas)
-    assert "fitbit" in rollups
-    text = format_console_report(deltas, rollups)
-    assert "SleepScope vs wearable" in text
-    assert "fitbit" in text
+def test_timelines_and_hypnogram(tmp_path: Path):
+    comparisons = compare_many([FIXTURES / "night_manifest.json"])
+    text = format_console_report(comparisons)
+    assert "Sleep / Awake" in text
+    assert "SleepScope" in text
 
-    plots = write_plots(deltas, tmp_path / "plots")
-    assert plots
-    assert all(path.exists() for path in plots)
+    timelines = write_comparison_timelines(comparisons, tmp_path / "timelines")
+    assert len(timelines) == 2
+    assert all(path.exists() for path in timelines)
+
+    plots = write_hypnogram_plots(comparisons, tmp_path / "plots")
+    assert len(plots) == 1
+    assert plots[0].exists()

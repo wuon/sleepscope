@@ -6,7 +6,7 @@ from typing import Any, Iterable
 
 from sleep_analyzer.loaders import get_loader
 from sleep_analyzer.metrics import compare_sessions
-from sleep_analyzer.models import DataSource, NightDelta, NightManifest
+from sleep_analyzer.models import DataSource, NightComparison, NightManifest
 
 
 def load_json(path: Path) -> Any:
@@ -54,6 +54,10 @@ def parse_night_manifest(path: Path) -> NightManifest:
     if len(comparisons) != 1:
         raise ValueError(
             f"{path}: v1 requires exactly one comparison entry, got {len(comparisons)}"
+        )
+    if comparisons[0].provider != "fitbit":
+        raise ValueError(
+            f"{path}: comparisons[0].provider must be 'fitbit', got '{comparisons[0].provider}'"
         )
 
     night_id = str(payload.get("id") or path.stem)
@@ -115,7 +119,7 @@ def _looks_like_night_manifest(path: Path) -> bool:
     )
 
 
-def compare_night(manifest: NightManifest) -> list[NightDelta]:
+def compare_night(manifest: NightManifest) -> list[NightComparison]:
     if not manifest.path:
         raise ValueError("NightManifest.path is required to resolve relative data paths")
     base = Path(manifest.path).parent
@@ -123,11 +127,11 @@ def compare_night(manifest: NightManifest) -> list[NightDelta]:
     ref_loader = get_loader(manifest.reference.provider)
     reference = ref_loader.load(resolve_path(base, manifest.reference.path))
 
-    deltas: list[NightDelta] = []
+    results: list[NightComparison] = []
     for source in manifest.comparisons:
         cmp_loader = get_loader(source.provider)
         comparison = cmp_loader.load(resolve_path(base, source.path))
-        deltas.append(
+        results.append(
             compare_sessions(
                 reference,
                 comparison,
@@ -136,15 +140,15 @@ def compare_night(manifest: NightManifest) -> list[NightDelta]:
                 notes=manifest.notes,
             )
         )
-    return deltas
+    return results
 
 
-def compare_many(manifest_paths: Iterable[Path]) -> list[NightDelta]:
-    deltas: list[NightDelta] = []
+def compare_many(manifest_paths: Iterable[Path]) -> list[NightComparison]:
+    results: list[NightComparison] = []
     for path in manifest_paths:
         manifest = parse_night_manifest(path)
-        deltas.extend(compare_night(manifest))
-    return deltas
+        results.extend(compare_night(manifest))
+    return results
 
 
 def _parse_source(raw: Any, path: Path, *, field: str) -> DataSource:
