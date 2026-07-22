@@ -9,7 +9,9 @@ from sleep_analyzer.loaders.base import (
 )
 
 # Import concrete loaders for side-effect registration.
+from sleep_analyzer.loaders import apple_watch as _apple_watch  # noqa: F401
 from sleep_analyzer.loaders import fitbit as _fitbit  # noqa: F401
+from sleep_analyzer.loaders import oura as _oura  # noqa: F401
 from sleep_analyzer.loaders import sleepscope as _sleepscope  # noqa: F401
 
 __all__ = [

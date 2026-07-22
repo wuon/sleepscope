@@ -1,0 +1,1640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PII-scrubbed extract: sourceName normalized, device attribute removed, Me/identity block omitted. Records = Alex's Apple Watch, single night window. -->
+<HealthData locale="en_US">
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 02:13:00 -0700" startDate="2026-07-21 02:12:59 -0700" endDate="2026-07-21 02:12:59 -0700" value="79">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 02:13:15 -0700" startDate="2026-07-21 02:12:14 -0700" endDate="2026-07-21 02:12:14 -0700" value="77.5637">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 02:13:52 -0700" startDate="2026-07-21 02:09:19 -0700" endDate="2026-07-21 02:09:19 -0700" value="73">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 02:19:24 -0700" startDate="2026-07-21 02:15:23 -0700" endDate="2026-07-21 02:15:23 -0700" value="79">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 02:23:48 -0700" startDate="2026-07-21 02:19:57 -0700" endDate="2026-07-21 02:19:57 -0700" value="73">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 02:30:03 -0700" startDate="2026-07-21 02:24:59 -0700" endDate="2026-07-21 02:24:59 -0700" value="78">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 02:36:13 -0700" startDate="2026-07-21 02:31:11 -0700" endDate="2026-07-21 02:31:11 -0700" value="79">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 02:43:01 -0700" startDate="2026-07-21 02:43:00 -0700" endDate="2026-07-21 02:43:00 -0700" value="70">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 02:43:01 -0700" startDate="2026-07-21 02:37:55 -0700" endDate="2026-07-21 02:37:55 -0700" value="72">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 02:50:01 -0700" startDate="2026-07-21 02:40:38 -0700" endDate="2026-07-21 02:40:38 -0700" value="72">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 02:50:02 -0700" startDate="2026-07-21 02:45:03 -0700" endDate="2026-07-21 02:45:03 -0700" value="72">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 02:53:49 -0700" startDate="2026-07-21 02:49:57 -0700" endDate="2026-07-21 02:49:57 -0700" value="72">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 02:59:56 -0700" startDate="2026-07-21 02:54:11 -0700" endDate="2026-07-21 02:54:11 -0700" value="71">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 03:04:46 -0700" startDate="2026-07-21 03:01:01 -0700" endDate="2026-07-21 03:01:01 -0700" value="72">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 03:12:48 -0700" startDate="2026-07-21 03:03:46 -0700" endDate="2026-07-21 03:03:46 -0700" value="72">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 03:14:07 -0700" startDate="2026-07-21 03:12:04 -0700" endDate="2026-07-21 03:12:04 -0700" value="79">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 03:19:31 -0700" startDate="2026-07-21 03:13:42 -0700" endDate="2026-07-21 03:13:42 -0700" value="73">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 03:31:43 -0700" startDate="2026-07-21 03:18:45 -0700" endDate="2026-07-21 03:18:45 -0700" value="79">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 03:31:43 -0700" startDate="2026-07-21 03:25:13 -0700" endDate="2026-07-21 03:25:13 -0700" value="72">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 03:34:16 -0700" startDate="2026-07-21 03:29:45 -0700" endDate="2026-07-21 03:29:45 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 03:41:31 -0700" startDate="2026-07-21 03:35:31 -0700" endDate="2026-07-21 03:35:31 -0700" value="67">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 03:43:01 -0700" startDate="2026-07-21 03:43:01 -0700" endDate="2026-07-21 03:43:01 -0700" value="67">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 03:47:26 -0700" startDate="2026-07-21 03:38:51 -0700" endDate="2026-07-21 03:38:51 -0700" value="64">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 03:50:00 -0700" startDate="2026-07-21 03:44:24 -0700" endDate="2026-07-21 03:44:24 -0700" value="67">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 03:53:47 -0700" startDate="2026-07-21 03:51:05 -0700" endDate="2026-07-21 03:51:05 -0700" value="64">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 03:58:59 -0700" startDate="2026-07-21 03:53:55 -0700" endDate="2026-07-21 03:53:55 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 03:59:13 -0700" startDate="2026-07-21 03:58:12 -0700" endDate="2026-07-21 03:58:12 -0700" value="63.4885">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 04:05:49 -0700" startDate="2026-07-21 04:01:09 -0700" endDate="2026-07-21 04:01:09 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 04:12:40 -0700" startDate="2026-07-21 04:04:34 -0700" endDate="2026-07-21 04:04:34 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 04:13:02 -0700" startDate="2026-07-21 04:13:02 -0700" endDate="2026-07-21 04:13:02 -0700" value="74">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 04:17:15 -0700" startDate="2026-07-21 04:09:09 -0700" endDate="2026-07-21 04:09:09 -0700" value="64">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 04:21:31 -0700" startDate="2026-07-21 04:17:04 -0700" endDate="2026-07-21 04:17:04 -0700" value="66">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 04:23:51 -0700" startDate="2026-07-21 04:18:49 -0700" endDate="2026-07-21 04:18:49 -0700" value="67">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 04:31:59 -0700" startDate="2026-07-21 04:23:55 -0700" endDate="2026-07-21 04:23:55 -0700" value="66">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 04:36:31 -0700" startDate="2026-07-21 04:33:11 -0700" endDate="2026-07-21 04:33:11 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 04:42:50 -0700" startDate="2026-07-21 04:34:15 -0700" endDate="2026-07-21 04:34:15 -0700" value="64">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 04:45:56 -0700" startDate="2026-07-21 04:38:36 -0700" endDate="2026-07-21 04:38:36 -0700" value="64">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 04:49:12 -0700" startDate="2026-07-21 04:43:41 -0700" endDate="2026-07-21 04:43:41 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 04:53:52 -0700" startDate="2026-07-21 04:49:03 -0700" endDate="2026-07-21 04:49:03 -0700" value="64">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 05:02:41 -0700" startDate="2026-07-21 04:57:26 -0700" endDate="2026-07-21 04:57:26 -0700" value="68">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 05:06:32 -0700" startDate="2026-07-21 04:59:10 -0700" endDate="2026-07-21 04:59:10 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 05:12:20 -0700" startDate="2026-07-21 05:06:36 -0700" endDate="2026-07-21 05:06:36 -0700" value="68">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 05:18:05 -0700" startDate="2026-07-21 05:10:03 -0700" endDate="2026-07-21 05:10:03 -0700" value="67">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 05:19:19 -0700" startDate="2026-07-21 05:17:10 -0700" endDate="2026-07-21 05:17:10 -0700" value="67">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 05:27:05 -0700" startDate="2026-07-21 05:20:27 -0700" endDate="2026-07-21 05:20:27 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 05:31:38 -0700" startDate="2026-07-21 05:24:32 -0700" endDate="2026-07-21 05:24:32 -0700" value="64">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 05:34:49 -0700" startDate="2026-07-21 05:29:39 -0700" endDate="2026-07-21 05:29:39 -0700" value="67">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 05:41:50 -0700" startDate="2026-07-21 05:33:48 -0700" endDate="2026-07-21 05:33:48 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 05:43:03 -0700" startDate="2026-07-21 05:43:03 -0700" endDate="2026-07-21 05:43:03 -0700" value="65">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 05:46:32 -0700" startDate="2026-07-21 05:39:23 -0700" endDate="2026-07-21 05:39:23 -0700" value="64">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 05:50:01 -0700" startDate="2026-07-21 05:45:42 -0700" endDate="2026-07-21 05:45:42 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 05:53:50 -0700" startDate="2026-07-21 05:48:52 -0700" endDate="2026-07-21 05:48:52 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 05:58:43 -0700" startDate="2026-07-21 05:54:20 -0700" endDate="2026-07-21 05:54:20 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 05:59:15 -0700" startDate="2026-07-21 05:58:14 -0700" endDate="2026-07-21 05:58:14 -0700" value="62.9735">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 06:06:33 -0700" startDate="2026-07-21 05:58:41 -0700" endDate="2026-07-21 05:58:41 -0700" value="64">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 06:10:18 -0700" startDate="2026-07-21 06:04:59 -0700" endDate="2026-07-21 06:04:59 -0700" value="61">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 06:13:04 -0700" startDate="2026-07-21 06:13:04 -0700" endDate="2026-07-21 06:13:04 -0700" value="62">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 06:15:02 -0700" startDate="2026-07-21 06:08:36 -0700" endDate="2026-07-21 06:08:36 -0700" value="60">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 06:21:33 -0700" startDate="2026-07-21 06:15:49 -0700" endDate="2026-07-21 06:15:49 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 06:25:02 -0700" startDate="2026-07-21 06:20:36 -0700" endDate="2026-07-21 06:20:36 -0700" value="64">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 06:35:08 -0700" startDate="2026-07-21 06:23:53 -0700" endDate="2026-07-21 06:23:53 -0700" value="66">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 06:35:08 -0700" startDate="2026-07-21 06:29:26 -0700" endDate="2026-07-21 06:29:26 -0700" value="64">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 06:43:05 -0700" startDate="2026-07-21 06:43:04 -0700" endDate="2026-07-21 06:43:04 -0700" value="67">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 06:41:51 -0700" startDate="2026-07-21 06:34:00 -0700" endDate="2026-07-21 06:34:00 -0700" value="58">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 06:45:00 -0700" startDate="2026-07-21 06:41:17 -0700" endDate="2026-07-21 06:41:17 -0700" value="64">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 06:50:03 -0700" startDate="2026-07-21 06:44:38 -0700" endDate="2026-07-21 06:44:38 -0700" value="68">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 06:53:55 -0700" startDate="2026-07-21 06:51:44 -0700" endDate="2026-07-21 06:51:44 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 07:03:53 -0700" startDate="2026-07-21 06:56:49 -0700" endDate="2026-07-21 06:56:49 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 07:03:53 -0700" startDate="2026-07-21 06:59:33 -0700" endDate="2026-07-21 06:59:33 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 07:12:43 -0700" startDate="2026-07-21 07:04:56 -0700" endDate="2026-07-21 07:04:56 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 07:18:38 -0700" startDate="2026-07-21 07:09:48 -0700" endDate="2026-07-21 07:09:48 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 07:18:41 -0700" startDate="2026-07-21 07:13:36 -0700" endDate="2026-07-21 07:13:36 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 07:23:49 -0700" startDate="2026-07-21 07:18:49 -0700" endDate="2026-07-21 07:18:49 -0700" value="64">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 07:33:58 -0700" startDate="2026-07-21 07:24:38 -0700" endDate="2026-07-21 07:24:38 -0700" value="60">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 07:33:58 -0700" startDate="2026-07-21 07:33:00 -0700" endDate="2026-07-21 07:33:00 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 07:40:16 -0700" startDate="2026-07-21 07:34:59 -0700" endDate="2026-07-21 07:34:59 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 07:44:35 -0700" startDate="2026-07-21 07:39:37 -0700" endDate="2026-07-21 07:39:37 -0700" value="66">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 07:49:06 -0700" startDate="2026-07-21 07:46:10 -0700" endDate="2026-07-21 07:46:10 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:51:50 -0700" startDate="2026-07-21 07:51:50 -0700" endDate="2026-07-21 07:51:50 -0700" value="64">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 07:53:51 -0700" startDate="2026-07-21 07:48:52 -0700" endDate="2026-07-21 07:48:52 -0700" value="64">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 07:59:11 -0700" startDate="2026-07-21 07:55:10 -0700" endDate="2026-07-21 07:55:10 -0700" value="66">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 07:59:12 -0700" startDate="2026-07-21 07:58:11 -0700" endDate="2026-07-21 07:58:11 -0700" value="65.6229">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 08:05:03 -0700" startDate="2026-07-21 07:59:59 -0700" endDate="2026-07-21 07:59:59 -0700" value="66">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 08:21:51 -0700" startDate="2026-07-21 08:21:51 -0700" endDate="2026-07-21 08:21:51 -0700" value="61">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 08:10:01 -0700" startDate="2026-07-21 08:04:22 -0700" endDate="2026-07-21 08:04:22 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 08:15:14 -0700" startDate="2026-07-21 08:09:51 -0700" endDate="2026-07-21 08:09:51 -0700" value="58">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 08:21:36 -0700" startDate="2026-07-21 08:17:23 -0700" endDate="2026-07-21 08:17:23 -0700" value="60">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 08:23:49 -0700" startDate="2026-07-21 08:18:55 -0700" endDate="2026-07-21 08:18:55 -0700" value="61">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 08:29:58 -0700" startDate="2026-07-21 08:25:36 -0700" endDate="2026-07-21 08:25:36 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 08:36:37 -0700" startDate="2026-07-21 08:32:38 -0700" endDate="2026-07-21 08:32:38 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 08:43:58 -0700" startDate="2026-07-21 08:35:03 -0700" endDate="2026-07-21 08:35:03 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 08:43:58 -0700" startDate="2026-07-21 08:43:20 -0700" endDate="2026-07-21 08:43:20 -0700" value="63">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 08:50:01 -0700" startDate="2026-07-21 08:44:22 -0700" endDate="2026-07-21 08:44:22 -0700" value="68">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 08:53:49 -0700" startDate="2026-07-21 08:51:52 -0700" endDate="2026-07-21 08:51:52 -0700" value="67">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 08:58:52 -0700" startDate="2026-07-21 08:54:57 -0700" endDate="2026-07-21 08:54:57 -0700" value="64">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 09:04:04 -0700" startDate="2026-07-21 09:01:49 -0700" endDate="2026-07-21 09:01:49 -0700" value="84">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 08:51:51 -0700" startDate="2026-07-21 08:51:51 -0700" endDate="2026-07-21 08:51:51 -0700" value="65">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 09:08:48 -0700" startDate="2026-07-21 09:07:28 -0700" endDate="2026-07-21 09:07:28 -0700" value="84">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 09:14:19 -0700" startDate="2026-07-21 09:12:18 -0700" endDate="2026-07-21 09:12:18 -0700" value="80">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 09:19:49 -0700" startDate="2026-07-21 09:18:24 -0700" endDate="2026-07-21 09:18:24 -0700" value="80">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 09:23:42 -0700" startDate="2026-07-21 09:19:29 -0700" endDate="2026-07-21 09:19:29 -0700" value="79">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 09:33:29 -0700" startDate="2026-07-21 09:23:48 -0700" endDate="2026-07-21 09:23:48 -0700" value="89">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 09:41:29 -0700" startDate="2026-07-21 09:33:13 -0700" endDate="2026-07-21 09:33:13 -0700" value="94">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 09:50:03 -0700" startDate="2026-07-21 09:49:19 -0700" endDate="2026-07-21 09:49:19 -0700" value="97">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 10:01:14 -0700" startDate="2026-07-21 09:39:46 -0700" endDate="2026-07-21 09:39:46 -0700" value="84">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 10:05:08 -0700" startDate="2026-07-21 10:01:08 -0700" endDate="2026-07-21 10:01:08 -0700" value="85">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 10:10:27 -0700" startDate="2026-07-21 10:05:14 -0700" endDate="2026-07-21 10:05:14 -0700" value="93">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="0" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRate" sourceName="Apple Watch" sourceVersion="31.2" unit="count/min" creationDate="2026-07-21 10:22:42 -0700" startDate="2026-07-21 10:10:31 -0700" endDate="2026-07-21 10:10:31 -0700" value="97">
+  <MetadataEntry key="HKMetadataKeyHeartRateMotionContext" value="1" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierOxygenSaturation" sourceName="Apple Watch" sourceVersion="26.5" unit="%" creationDate="2026-07-21 02:13:00 -0700" startDate="2026-07-21 02:12:59 -0700" endDate="2026-07-21 02:12:59 -0700" value="0.97">
+  <MetadataEntry key="HKMetadataKeyBarometricPressure" value="97.6485 kPa" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierOxygenSaturation" sourceName="Apple Watch" sourceVersion="26.5" unit="%" creationDate="2026-07-21 02:43:01 -0700" startDate="2026-07-21 02:43:00 -0700" endDate="2026-07-21 02:43:00 -0700" value="0.93">
+  <MetadataEntry key="HKMetadataKeyBarometricPressure" value="97.6482 kPa" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierOxygenSaturation" sourceName="Apple Watch" sourceVersion="26.5" unit="%" creationDate="2026-07-21 03:43:01 -0700" startDate="2026-07-21 03:43:01 -0700" endDate="2026-07-21 03:43:01 -0700" value="0.95">
+  <MetadataEntry key="HKMetadataKeyBarometricPressure" value="97.6883 kPa" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierOxygenSaturation" sourceName="Apple Watch" sourceVersion="26.5" unit="%" creationDate="2026-07-21 04:13:02 -0700" startDate="2026-07-21 04:13:02 -0700" endDate="2026-07-21 04:13:02 -0700" value="0.98">
+  <MetadataEntry key="HKMetadataKeyBarometricPressure" value="97.7006 kPa" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierOxygenSaturation" sourceName="Apple Watch" sourceVersion="26.5" unit="%" creationDate="2026-07-21 05:43:03 -0700" startDate="2026-07-21 05:43:03 -0700" endDate="2026-07-21 05:43:03 -0700" value="0.95">
+  <MetadataEntry key="HKMetadataKeyBarometricPressure" value="97.7751 kPa" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierOxygenSaturation" sourceName="Apple Watch" sourceVersion="26.5" unit="%" creationDate="2026-07-21 06:13:04 -0700" startDate="2026-07-21 06:13:04 -0700" endDate="2026-07-21 06:13:04 -0700" value="0.93">
+  <MetadataEntry key="HKMetadataKeyBarometricPressure" value="97.8249 kPa" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierOxygenSaturation" sourceName="Apple Watch" sourceVersion="26.5" unit="%" creationDate="2026-07-21 06:43:05 -0700" startDate="2026-07-21 06:43:04 -0700" endDate="2026-07-21 06:43:04 -0700" value="0.94">
+  <MetadataEntry key="HKMetadataKeyBarometricPressure" value="97.8307 kPa" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierOxygenSaturation" sourceName="Apple Watch" sourceVersion="26.5" unit="%" creationDate="2026-07-21 07:51:50 -0700" startDate="2026-07-21 07:51:50 -0700" endDate="2026-07-21 07:51:50 -0700" value="0.95">
+  <MetadataEntry key="HKMetadataKeyBarometricPressure" value="97.8854 kPa" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierOxygenSaturation" sourceName="Apple Watch" sourceVersion="26.5" unit="%" creationDate="2026-07-21 08:21:51 -0700" startDate="2026-07-21 08:21:51 -0700" endDate="2026-07-21 08:21:51 -0700" value="0.96">
+  <MetadataEntry key="HKMetadataKeyBarometricPressure" value="97.8974 kPa" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierOxygenSaturation" sourceName="Apple Watch" sourceVersion="26.5" unit="%" creationDate="2026-07-21 08:51:51 -0700" startDate="2026-07-21 08:51:51 -0700" endDate="2026-07-21 08:51:51 -0700" value="0.98">
+  <MetadataEntry key="HKMetadataKeyBarometricPressure" value="97.9362 kPa" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 02:27:08 -0700" endDate="2026-07-21 02:27:08 -0700" value="15" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 02:34:40 -0700" endDate="2026-07-21 02:34:40 -0700" value="17.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 02:46:14 -0700" endDate="2026-07-21 02:46:14 -0700" value="17.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 02:56:17 -0700" endDate="2026-07-21 02:56:17 -0700" value="17" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 02:59:18 -0700" endDate="2026-07-21 02:59:18 -0700" value="17.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 03:09:22 -0700" endDate="2026-07-21 03:09:22 -0700" value="17" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 03:22:56 -0700" endDate="2026-07-21 03:22:56 -0700" value="15.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 03:34:30 -0700" endDate="2026-07-21 03:34:30 -0700" value="11.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 03:47:04 -0700" endDate="2026-07-21 03:47:04 -0700" value="11.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 03:58:08 -0700" endDate="2026-07-21 03:58:08 -0700" value="11.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 04:06:41 -0700" endDate="2026-07-21 04:06:41 -0700" value="12.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 04:10:42 -0700" endDate="2026-07-21 04:10:42 -0700" value="12.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 04:25:17 -0700" endDate="2026-07-21 04:25:17 -0700" value="17" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 04:37:21 -0700" endDate="2026-07-21 04:37:21 -0700" value="11" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 04:43:53 -0700" endDate="2026-07-21 04:43:53 -0700" value="12" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 05:05:01 -0700" endDate="2026-07-21 05:05:01 -0700" value="12" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 05:20:36 -0700" endDate="2026-07-21 05:20:36 -0700" value="13.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 05:33:40 -0700" endDate="2026-07-21 05:33:40 -0700" value="12" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 05:39:12 -0700" endDate="2026-07-21 05:39:12 -0700" value="12" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 05:58:49 -0700" endDate="2026-07-21 05:58:49 -0700" value="13.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 06:07:52 -0700" endDate="2026-07-21 06:07:52 -0700" value="13" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 06:17:55 -0700" endDate="2026-07-21 06:17:55 -0700" value="15.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 06:28:59 -0700" endDate="2026-07-21 06:28:59 -0700" value="11.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 06:38:02 -0700" endDate="2026-07-21 06:38:02 -0700" value="9.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 06:43:34 -0700" endDate="2026-07-21 06:43:34 -0700" value="12" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 06:59:09 -0700" endDate="2026-07-21 06:59:09 -0700" value="10.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 07:07:12 -0700" endDate="2026-07-21 07:07:12 -0700" value="10.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 07:13:44 -0700" endDate="2026-07-21 07:13:44 -0700" value="11" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 07:22:47 -0700" endDate="2026-07-21 07:22:47 -0700" value="11" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 07:50:22 -0700" startDate="2026-07-21 07:39:23 -0700" endDate="2026-07-21 07:39:23 -0700" value="13.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 10:57:18 -0700" startDate="2026-07-21 07:48:56 -0700" endDate="2026-07-21 07:48:56 -0700" value="12" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 10:57:18 -0700" startDate="2026-07-21 07:52:57 -0700" endDate="2026-07-21 07:52:57 -0700" value="10.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 10:57:18 -0700" startDate="2026-07-21 08:07:02 -0700" endDate="2026-07-21 08:07:02 -0700" value="10.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 10:57:18 -0700" startDate="2026-07-21 08:17:35 -0700" endDate="2026-07-21 08:17:35 -0700" value="11.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 10:57:18 -0700" startDate="2026-07-21 08:21:37 -0700" endDate="2026-07-21 08:21:37 -0700" value="10.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 10:57:18 -0700" startDate="2026-07-21 08:32:10 -0700" endDate="2026-07-21 08:32:10 -0700" value="10.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 10:57:18 -0700" startDate="2026-07-21 08:46:45 -0700" endDate="2026-07-21 08:46:45 -0700" value="13.5" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 10:57:18 -0700" startDate="2026-07-21 08:56:18 -0700" endDate="2026-07-21 08:56:18 -0700" value="17" />
+ <Record type="HKQuantityTypeIdentifierRespiratoryRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 10:57:18 -0700" startDate="2026-07-21 09:17:25 -0700" endDate="2026-07-21 09:17:25 -0700" value="14.5" />
+ <Record type="HKQuantityTypeIdentifierStepCount" sourceName="Apple Watch" sourceVersion="26.5" unit="count" creationDate="2026-07-21 03:36:30 -0700" startDate="2026-07-21 02:07:33 -0700" endDate="2026-07-21 02:07:48 -0700" value="11" />
+ <Record type="HKQuantityTypeIdentifierStepCount" sourceName="Apple Watch" sourceVersion="26.5" unit="count" creationDate="2026-07-21 03:50:00 -0700" startDate="2026-07-21 03:36:14 -0700" endDate="2026-07-21 03:36:16 -0700" value="2" />
+ <Record type="HKQuantityTypeIdentifierStepCount" sourceName="Apple Watch" sourceVersion="26.5" unit="count" creationDate="2026-07-21 09:04:04 -0700" startDate="2026-07-21 06:35:45 -0700" endDate="2026-07-21 06:36:11 -0700" value="18" />
+ <Record type="HKQuantityTypeIdentifierStepCount" sourceName="Apple Watch" sourceVersion="26.5" unit="count" creationDate="2026-07-21 09:33:29 -0700" startDate="2026-07-21 09:23:20 -0700" endDate="2026-07-21 09:31:37 -0700" value="217" />
+ <Record type="HKQuantityTypeIdentifierStepCount" sourceName="Apple Watch" sourceVersion="26.5" unit="count" creationDate="2026-07-21 09:46:00 -0700" startDate="2026-07-21 09:33:23 -0700" endDate="2026-07-21 09:43:20 -0700" value="223" />
+ <Record type="HKQuantityTypeIdentifierStepCount" sourceName="Apple Watch" sourceVersion="26.5" unit="count" creationDate="2026-07-21 09:55:10 -0700" startDate="2026-07-21 09:43:35 -0700" endDate="2026-07-21 09:53:06 -0700" value="397" />
+ <Record type="HKQuantityTypeIdentifierStepCount" sourceName="Apple Watch" sourceVersion="26.5" unit="count" creationDate="2026-07-21 10:05:35 -0700" startDate="2026-07-21 09:54:00 -0700" endDate="2026-07-21 09:54:47 -0700" value="54" />
+ <Record type="HKQuantityTypeIdentifierStepCount" sourceName="Apple Watch" sourceVersion="26.5" unit="count" creationDate="2026-07-21 10:05:36 -0700" startDate="2026-07-21 09:55:33 -0700" endDate="2026-07-21 10:05:33 -0700" value="731" />
+ <Record type="HKQuantityTypeIdentifierStepCount" sourceName="Apple Watch" sourceVersion="26.5" unit="count" creationDate="2026-07-21 10:16:34 -0700" startDate="2026-07-21 10:05:33 -0700" endDate="2026-07-21 10:15:32 -0700" value="680" />
+ <Record type="HKQuantityTypeIdentifierStepCount" sourceName="Apple Watch" sourceVersion="26.5" unit="count" creationDate="2026-07-21 10:26:33 -0700" startDate="2026-07-21 10:15:32 -0700" endDate="2026-07-21 10:16:29 -0700" value="62" />
+ <Record type="HKQuantityTypeIdentifierStepCount" sourceName="Apple Watch" sourceVersion="26.5" unit="count" creationDate="2026-07-21 10:33:15 -0700" startDate="2026-07-21 10:16:34 -0700" endDate="2026-07-21 10:21:43 -0700" value="92" />
+ <Record type="HKQuantityTypeIdentifierDistanceWalkingRunning" sourceName="Apple Watch" sourceVersion="26.5" unit="mi" creationDate="2026-07-21 03:36:30 -0700" startDate="2026-07-21 02:07:33 -0700" endDate="2026-07-21 02:07:48 -0700" value="0.00482215" />
+ <Record type="HKQuantityTypeIdentifierDistanceWalkingRunning" sourceName="Apple Watch" sourceVersion="26.5" unit="mi" creationDate="2026-07-21 03:50:00 -0700" startDate="2026-07-21 03:36:14 -0700" endDate="2026-07-21 03:36:16 -0700" value="0.000876755" />
+ <Record type="HKQuantityTypeIdentifierDistanceWalkingRunning" sourceName="Apple Watch" sourceVersion="26.5" unit="mi" creationDate="2026-07-21 09:04:04 -0700" startDate="2026-07-21 06:35:45 -0700" endDate="2026-07-21 06:36:11 -0700" value="0.00789079" />
+ <Record type="HKQuantityTypeIdentifierDistanceWalkingRunning" sourceName="Apple Watch" sourceVersion="26.5" unit="mi" creationDate="2026-07-21 09:33:29 -0700" startDate="2026-07-21 09:23:20 -0700" endDate="2026-07-21 09:31:37 -0700" value="0.10983" />
+ <Record type="HKQuantityTypeIdentifierDistanceWalkingRunning" sourceName="Apple Watch" sourceVersion="26.5" unit="mi" creationDate="2026-07-21 09:46:00 -0700" startDate="2026-07-21 09:33:23 -0700" endDate="2026-07-21 09:43:20 -0700" value="0.11668" />
+ <Record type="HKQuantityTypeIdentifierDistanceWalkingRunning" sourceName="Apple Watch" sourceVersion="26.5" unit="mi" creationDate="2026-07-21 09:55:10 -0700" startDate="2026-07-21 09:43:35 -0700" endDate="2026-07-21 09:44:27 -0700" value="0.0311394" />
+ <Record type="HKQuantityTypeIdentifierDistanceWalkingRunning" sourceName="Apple Watch" sourceVersion="26.5" unit="mi" creationDate="2026-07-21 09:55:10 -0700" startDate="2026-07-21 09:44:34 -0700" endDate="2026-07-21 09:54:34 -0700" value="0.176938" />
+ <Record type="HKQuantityTypeIdentifierDistanceWalkingRunning" sourceName="Apple Watch" sourceVersion="26.5" unit="mi" creationDate="2026-07-21 10:05:35 -0700" startDate="2026-07-21 09:54:34 -0700" endDate="2026-07-21 09:54:47 -0700" value="0.00848793" />
+ <Record type="HKQuantityTypeIdentifierDistanceWalkingRunning" sourceName="Apple Watch" sourceVersion="26.5" unit="mi" creationDate="2026-07-21 10:05:36 -0700" startDate="2026-07-21 09:55:33 -0700" endDate="2026-07-21 10:05:33 -0700" value="0.356995" />
+ <Record type="HKQuantityTypeIdentifierDistanceWalkingRunning" sourceName="Apple Watch" sourceVersion="26.5" unit="mi" creationDate="2026-07-21 10:16:35 -0700" startDate="2026-07-21 10:05:33 -0700" endDate="2026-07-21 10:15:32 -0700" value="0.294861" />
+ <Record type="HKQuantityTypeIdentifierDistanceWalkingRunning" sourceName="Apple Watch" sourceVersion="26.5" unit="mi" creationDate="2026-07-21 10:26:33 -0700" startDate="2026-07-21 10:15:32 -0700" endDate="2026-07-21 10:16:29 -0700" value="0.0280195" />
+ <Record type="HKQuantityTypeIdentifierDistanceWalkingRunning" sourceName="Apple Watch" sourceVersion="26.5" unit="mi" creationDate="2026-07-21 10:33:15 -0700" startDate="2026-07-21 10:16:34 -0700" endDate="2026-07-21 10:21:43 -0700" value="0.0432779" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-20 19:08:42 -0700" startDate="2026-07-20 18:00:42 -0700" endDate="2026-07-20 18:57:54 -0700" value="84.366" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-20 19:14:17 -0700" startDate="2026-07-20 18:57:54 -0700" endDate="2026-07-20 18:59:06 -0700" value="1.771" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-20 19:23:28 -0700" startDate="2026-07-20 18:59:06 -0700" endDate="2026-07-20 19:16:16 -0700" value="25.318" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-20 19:42:40 -0700" startDate="2026-07-20 19:16:16 -0700" endDate="2026-07-20 19:17:28 -0700" value="1.771" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 02:07:38 -0700" startDate="2026-07-20 19:17:28 -0700" endDate="2026-07-20 20:17:28 -0700" value="88.498" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 02:07:38 -0700" startDate="2026-07-20 20:17:28 -0700" endDate="2026-07-20 21:17:28 -0700" value="88.498" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 02:07:38 -0700" startDate="2026-07-20 21:17:28 -0700" endDate="2026-07-20 22:17:28 -0700" value="88.498" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 02:07:38 -0700" startDate="2026-07-20 22:17:28 -0700" endDate="2026-07-20 23:17:28 -0700" value="88.498" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 02:07:38 -0700" startDate="2026-07-20 23:17:28 -0700" endDate="2026-07-21 00:17:28 -0700" value="88.498" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 02:07:38 -0700" startDate="2026-07-21 00:17:28 -0700" endDate="2026-07-21 01:17:28 -0700" value="88.498" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 02:07:38 -0700" startDate="2026-07-21 01:17:28 -0700" endDate="2026-07-21 02:07:17 -0700" value="73.494" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 02:23:48 -0700" startDate="2026-07-21 02:07:17 -0700" endDate="2026-07-21 02:07:28 -0700" value="0.403" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 02:30:04 -0700" startDate="2026-07-21 02:07:28 -0700" endDate="2026-07-21 02:26:41 -0700" value="31.815" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 02:50:01 -0700" startDate="2026-07-21 02:26:41 -0700" endDate="2026-07-21 02:26:51 -0700" value="0.253" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 03:14:08 -0700" startDate="2026-07-21 02:26:51 -0700" endDate="2026-07-21 03:12:51 -0700" value="67.841" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 03:31:43 -0700" startDate="2026-07-21 03:12:51 -0700" endDate="2026-07-21 03:13:11 -0700" value="0.657" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 03:34:16 -0700" startDate="2026-07-21 03:13:11 -0700" endDate="2026-07-21 03:28:49 -0700" value="23.037" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 03:50:00 -0700" startDate="2026-07-21 03:28:49 -0700" endDate="2026-07-21 03:45:38 -0700" value="25.259" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 04:02:30 -0700" startDate="2026-07-21 03:45:38 -0700" endDate="2026-07-21 03:45:58 -0700" value="0.657" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 04:13:05 -0700" startDate="2026-07-21 03:45:58 -0700" endDate="2026-07-21 04:12:45 -0700" value="39.489" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 04:36:32 -0700" startDate="2026-07-21 04:12:45 -0700" endDate="2026-07-21 04:12:55 -0700" value="0.253" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 04:48:02 -0700" startDate="2026-07-21 04:12:55 -0700" endDate="2026-07-21 04:42:47 -0700" value="44.046" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 05:02:41 -0700" startDate="2026-07-21 04:42:47 -0700" endDate="2026-07-21 04:58:03 -0700" value="22.68" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 05:19:19 -0700" startDate="2026-07-21 04:58:03 -0700" endDate="2026-07-21 05:01:19 -0700" value="4.809" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 05:20:09 -0700" startDate="2026-07-21 05:01:19 -0700" endDate="2026-07-21 05:18:08 -0700" value="24.807" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 05:36:32 -0700" startDate="2026-07-21 05:18:08 -0700" endDate="2026-07-21 05:18:18 -0700" value="0.253" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 05:41:50 -0700" startDate="2026-07-21 05:18:18 -0700" endDate="2026-07-21 05:34:57 -0700" value="24.555" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 05:51:34 -0700" startDate="2026-07-21 05:34:57 -0700" endDate="2026-07-21 05:49:53 -0700" value="22.174" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 06:10:18 -0700" startDate="2026-07-21 05:49:53 -0700" endDate="2026-07-21 05:50:03 -0700" value="0.253" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 06:35:08 -0700" startDate="2026-07-21 05:50:03 -0700" endDate="2026-07-21 06:24:13 -0700" value="50.379" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 06:43:05 -0700" startDate="2026-07-21 06:24:13 -0700" endDate="2026-07-21 06:36:03 -0700" value="17.77" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 07:03:57 -0700" startDate="2026-07-21 06:36:03 -0700" endDate="2026-07-21 06:53:54 -0700" value="26.626" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 07:12:43 -0700" startDate="2026-07-21 06:53:54 -0700" endDate="2026-07-21 07:00:56 -0700" value="10.529" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 07:33:58 -0700" startDate="2026-07-21 07:00:56 -0700" endDate="2026-07-21 07:23:36 -0700" value="33.415" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 07:40:16 -0700" startDate="2026-07-21 07:23:36 -0700" endDate="2026-07-21 07:26:31 -0700" value="4.303" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 07:44:37 -0700" startDate="2026-07-21 07:26:31 -0700" endDate="2026-07-21 07:43:20 -0700" value="24.959" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 07:59:11 -0700" startDate="2026-07-21 07:43:20 -0700" endDate="2026-07-21 07:43:30 -0700" value="0.253" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 08:05:05 -0700" startDate="2026-07-21 07:43:30 -0700" endDate="2026-07-21 08:00:40 -0700" value="25.766" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 08:23:49 -0700" startDate="2026-07-21 08:00:40 -0700" endDate="2026-07-21 08:01:01 -0700" value="0.657" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 08:36:38 -0700" startDate="2026-07-21 08:01:01 -0700" endDate="2026-07-21 08:14:44 -0700" value="20.552" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 08:36:38 -0700" startDate="2026-07-21 08:14:44 -0700" endDate="2026-07-21 08:32:46 -0700" value="26.58" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 08:51:37 -0700" startDate="2026-07-21 08:32:46 -0700" endDate="2026-07-21 08:33:06 -0700" value="0.657" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 08:58:41 -0700" startDate="2026-07-21 08:33:06 -0700" endDate="2026-07-21 08:58:20 -0700" value="37.21" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 09:14:52 -0700" startDate="2026-07-21 08:58:20 -0700" endDate="2026-07-21 09:12:55 -0700" value="28.149" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 09:27:56 -0700" startDate="2026-07-21 09:12:55 -0700" endDate="2026-07-21 09:27:51 -0700" value="25.788" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 09:42:57 -0700" startDate="2026-07-21 09:27:51 -0700" endDate="2026-07-21 09:42:46 -0700" value="32.43" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 09:58:14 -0700" startDate="2026-07-21 09:42:46 -0700" endDate="2026-07-21 09:57:42 -0700" value="32.279" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 10:14:11 -0700" startDate="2026-07-21 09:57:42 -0700" endDate="2026-07-21 10:12:37 -0700" value="33.638" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 10:28:56 -0700" startDate="2026-07-21 10:12:37 -0700" endDate="2026-07-21 10:12:58 -0700" value="0.808" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 10:40:36 -0700" startDate="2026-07-21 10:12:58 -0700" endDate="2026-07-21 10:23:05 -0700" value="22.628" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 11:25:01 -0700" startDate="2026-07-21 10:23:05 -0700" endDate="2026-07-21 11:23:05 -0700" value="88.498" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 11:30:42 -0700" startDate="2026-07-21 11:23:05 -0700" endDate="2026-07-21 11:25:34 -0700" value="4.856" />
+ <Record type="HKQuantityTypeIdentifierBasalEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 11:51:59 -0700" startDate="2026-07-21 11:25:34 -0700" endDate="2026-07-21 11:25:54 -0700" value="0.656" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-20 19:08:42 -0700" startDate="2026-07-20 18:57:54 -0700" endDate="2026-07-20 18:59:06 -0700" value="2.436" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-20 20:55:56 -0700" startDate="2026-07-20 19:16:16 -0700" endDate="2026-07-20 19:17:28 -0700" value="2.675" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 02:19:26 -0700" startDate="2026-07-21 02:07:17 -0700" endDate="2026-07-21 02:17:14 -0700" value="4.268" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 02:30:03 -0700" startDate="2026-07-21 02:17:14 -0700" endDate="2026-07-21 02:17:45 -0700" value="0.249" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 03:14:08 -0700" startDate="2026-07-21 02:26:41 -0700" endDate="2026-07-21 02:26:51 -0700" value="0.122" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 03:31:43 -0700" startDate="2026-07-21 03:12:51 -0700" endDate="2026-07-21 03:13:11 -0700" value="0.216" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 03:41:33 -0700" startDate="2026-07-21 03:28:49 -0700" endDate="2026-07-21 03:36:32 -0700" value="0.58" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 03:50:00 -0700" startDate="2026-07-21 03:39:27 -0700" endDate="2026-07-21 03:39:48 -0700" value="0.131" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 04:13:05 -0700" startDate="2026-07-21 03:45:38 -0700" endDate="2026-07-21 03:45:58 -0700" value="0.131" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 04:26:43 -0700" startDate="2026-07-21 04:12:45 -0700" endDate="2026-07-21 04:12:55 -0700" value="0.245" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 05:02:41 -0700" startDate="2026-07-21 04:42:47 -0700" endDate="2026-07-21 04:43:07 -0700" value="0.131" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 05:18:05 -0700" startDate="2026-07-21 04:58:03 -0700" endDate="2026-07-21 05:01:19 -0700" value="0.198" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 05:20:09 -0700" startDate="2026-07-21 05:07:50 -0700" endDate="2026-07-21 05:11:57 -0700" value="0.283" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 05:32:52 -0700" startDate="2026-07-21 05:18:08 -0700" endDate="2026-07-21 05:18:18 -0700" value="0.245" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 05:51:34 -0700" startDate="2026-07-21 05:34:57 -0700" endDate="2026-07-21 05:35:07 -0700" value="0.184" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 06:01:08 -0700" startDate="2026-07-21 05:49:43 -0700" endDate="2026-07-21 05:50:03 -0700" value="0.131" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 06:35:08 -0700" startDate="2026-07-21 06:24:13 -0700" endDate="2026-07-21 06:33:08 -0700" value="0.428" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 07:03:57 -0700" startDate="2026-07-21 06:35:43 -0700" endDate="2026-07-21 06:36:34 -0700" value="0.765" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 07:03:57 -0700" startDate="2026-07-21 06:53:54 -0700" endDate="2026-07-21 07:00:56 -0700" value="0.277" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 07:33:59 -0700" startDate="2026-07-21 07:23:36 -0700" endDate="2026-07-21 07:30:48 -0700" value="0.437" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 08:05:05 -0700" startDate="2026-07-21 07:43:20 -0700" endDate="2026-07-21 07:50:53 -0700" value="0.564" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 08:15:14 -0700" startDate="2026-07-21 08:00:40 -0700" endDate="2026-07-21 08:01:01 -0700" value="0.254" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 08:15:16 -0700" startDate="2026-07-21 08:04:58 -0700" endDate="2026-07-21 08:14:44 -0700" value="0.555" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 08:44:00 -0700" startDate="2026-07-21 08:32:46 -0700" endDate="2026-07-21 08:36:32 -0700" value="0.498" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 09:08:35 -0700" startDate="2026-07-21 08:58:20 -0700" endDate="2026-07-21 09:08:17 -0700" value="4.232" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 09:20:49 -0700" startDate="2026-07-21 09:08:17 -0700" endDate="2026-07-21 09:14:38 -0700" value="1.053" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 09:30:39 -0700" startDate="2026-07-21 09:19:57 -0700" endDate="2026-07-21 09:20:07 -0700" value="0.221" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 09:31:22 -0700" startDate="2026-07-21 09:20:59 -0700" endDate="2026-07-21 09:30:56 -0700" value="12.435" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 09:41:29 -0700" startDate="2026-07-21 09:30:56 -0700" endDate="2026-07-21 09:31:06 -0700" value="0.514" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 09:41:29 -0700" startDate="2026-07-21 09:31:16 -0700" endDate="2026-07-21 09:41:14 -0700" value="13.754" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 09:51:14 -0700" startDate="2026-07-21 09:41:14 -0700" endDate="2026-07-21 09:51:11 -0700" value="16.523" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 10:01:32 -0700" startDate="2026-07-21 09:51:21 -0700" endDate="2026-07-21 10:01:08 -0700" value="26.283" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 10:11:56 -0700" startDate="2026-07-21 10:01:08 -0700" endDate="2026-07-21 10:11:05 -0700" value="26.069" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 10:23:36 -0700" startDate="2026-07-21 10:11:05 -0700" endDate="2026-07-21 10:21:02 -0700" value="39.791" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 10:23:36 -0700" startDate="2026-07-21 10:21:02 -0700" endDate="2026-07-21 10:22:03 -0700" value="1.388" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 10:59:41 -0700" startDate="2026-07-21 10:22:03 -0700" endDate="2026-07-21 10:23:05 -0700" value="0.646" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 11:30:42 -0700" startDate="2026-07-21 11:24:11 -0700" endDate="2026-07-21 11:25:34 -0700" value="2.009" />
+ <Record type="HKQuantityTypeIdentifierActiveEnergyBurned" sourceName="Apple Watch" sourceVersion="26.5" unit="Cal" creationDate="2026-07-21 11:51:59 -0700" startDate="2026-07-21 11:25:44 -0700" endDate="2026-07-21 11:25:54 -0700" value="1.121" />
+ <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="Apple Watch" sourceVersion="26.5" unit="min" creationDate="2026-07-20 19:08:43 -0700" startDate="2026-07-20 18:57:00 -0700" endDate="2026-07-20 18:58:00 -0700" value="1" />
+ <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="Apple Watch" sourceVersion="26.5" unit="min" creationDate="2026-07-20 19:20:29 -0700" startDate="2026-07-20 19:16:00 -0700" endDate="2026-07-20 19:17:00 -0700" value="1" />
+ <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="Apple Watch" sourceVersion="26.5" unit="min" creationDate="2026-07-21 10:00:53 -0700" startDate="2026-07-21 09:57:00 -0700" endDate="2026-07-21 09:58:00 -0700" value="1" />
+ <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="Apple Watch" sourceVersion="26.5" unit="min" creationDate="2026-07-21 10:13:01 -0700" startDate="2026-07-21 10:11:00 -0700" endDate="2026-07-21 10:12:00 -0700" value="1" />
+ <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="Apple Watch" sourceVersion="26.5" unit="min" creationDate="2026-07-21 10:13:35 -0700" startDate="2026-07-21 10:12:00 -0700" endDate="2026-07-21 10:13:00 -0700" value="1" />
+ <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="Apple Watch" sourceVersion="26.5" unit="min" creationDate="2026-07-21 10:14:50 -0700" startDate="2026-07-21 10:13:00 -0700" endDate="2026-07-21 10:14:00 -0700" value="1" />
+ <Record type="HKQuantityTypeIdentifierAppleExerciseTime" sourceName="Apple Watch" sourceVersion="26.5" unit="min" creationDate="2026-07-21 10:20:01 -0700" startDate="2026-07-21 10:14:00 -0700" endDate="2026-07-21 10:15:00 -0700" value="1" />
+ <Record type="HKQuantityTypeIdentifierRestingHeartRate" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 10:57:17 -0700" startDate="2026-07-21 02:09:19 -0700" endDate="2026-07-21 10:10:31 -0700" value="64" />
+ <Record type="HKQuantityTypeIdentifierWalkingHeartRateAverage" sourceName="Apple Watch" sourceVersion="26.5" unit="count/min" creationDate="2026-07-21 09:50:03 -0700" startDate="2026-07-21 02:09:19 -0700" endDate="2026-07-21 09:49:19 -0700" value="97" />
+ <Record type="HKQuantityTypeIdentifierEnvironmentalAudioExposure" sourceName="Apple Watch" sourceVersion="26.5" unit="dBASPL" creationDate="2026-07-21 02:50:01 -0700" startDate="2026-07-21 02:07:33 -0700" endDate="2026-07-21 02:37:32 -0700" value="49.9742" />
+ <Record type="HKQuantityTypeIdentifierEnvironmentalAudioExposure" sourceName="Apple Watch" sourceVersion="26.5" unit="dBASPL" creationDate="2026-07-21 03:19:31 -0700" startDate="2026-07-21 02:37:32 -0700" endDate="2026-07-21 03:07:32 -0700" value="36.6955" />
+ <Record type="HKQuantityTypeIdentifierEnvironmentalAudioExposure" sourceName="Apple Watch" sourceVersion="26.5" unit="dBASPL" creationDate="2026-07-21 03:43:01 -0700" startDate="2026-07-21 03:07:32 -0700" endDate="2026-07-21 03:37:27 -0700" value="38.2061" />
+ <Record type="HKQuantityTypeIdentifierEnvironmentalAudioExposure" sourceName="Apple Watch" sourceVersion="26.5" unit="dBASPL" creationDate="2026-07-21 04:12:40 -0700" startDate="2026-07-21 03:37:27 -0700" endDate="2026-07-21 04:07:22 -0700" value="43.6246" />
+ <Record type="HKQuantityTypeIdentifierEnvironmentalAudioExposure" sourceName="Apple Watch" sourceVersion="26.5" unit="dBASPL" creationDate="2026-07-21 04:48:02 -0700" startDate="2026-07-21 04:07:22 -0700" endDate="2026-07-21 04:37:17 -0700" value="39.9771" />
+ <Record type="HKQuantityTypeIdentifierEnvironmentalAudioExposure" sourceName="Apple Watch" sourceVersion="26.5" unit="dBASPL" creationDate="2026-07-21 05:18:06 -0700" startDate="2026-07-21 04:37:17 -0700" endDate="2026-07-21 05:07:17 -0700" value="41.2096" />
+ <Record type="HKQuantityTypeIdentifierEnvironmentalAudioExposure" sourceName="Apple Watch" sourceVersion="26.5" unit="dBASPL" creationDate="2026-07-21 05:50:01 -0700" startDate="2026-07-21 05:07:17 -0700" endDate="2026-07-21 05:37:17 -0700" value="42.3161" />
+ <Record type="HKQuantityTypeIdentifierEnvironmentalAudioExposure" sourceName="Apple Watch" sourceVersion="26.5" unit="dBASPL" creationDate="2026-07-21 06:12:42 -0700" startDate="2026-07-21 05:37:17 -0700" endDate="2026-07-21 06:07:17 -0700" value="45.1227" />
+ <Record type="HKQuantityTypeIdentifierEnvironmentalAudioExposure" sourceName="Apple Watch" sourceVersion="26.5" unit="dBASPL" creationDate="2026-07-21 06:36:03 -0700" startDate="2026-07-21 06:07:17 -0700" endDate="2026-07-21 06:25:12 -0700" value="38.766" />
+ <Record type="HKQuantityTypeIdentifierEnvironmentalAudioExposure" sourceName="Apple Watch" sourceVersion="26.5" unit="dBASPL" creationDate="2026-07-21 07:03:53 -0700" startDate="2026-07-21 06:25:12 -0700" endDate="2026-07-21 06:55:12 -0700" value="37.0298" />
+ <Record type="HKQuantityTypeIdentifierEnvironmentalAudioExposure" sourceName="Apple Watch" sourceVersion="26.5" unit="dBASPL" creationDate="2026-07-21 07:33:58 -0700" startDate="2026-07-21 06:55:12 -0700" endDate="2026-07-21 07:25:12 -0700" value="40.7428" />
+ <Record type="HKQuantityTypeIdentifierEnvironmentalAudioExposure" sourceName="Apple Watch" sourceVersion="26.5" unit="dBASPL" creationDate="2026-07-21 08:05:03 -0700" startDate="2026-07-21 07:25:12 -0700" endDate="2026-07-21 07:55:12 -0700" value="35.9429" />
+ <Record type="HKQuantityTypeIdentifierEnvironmentalAudioExposure" sourceName="Apple Watch" sourceVersion="26.5" unit="dBASPL" creationDate="2026-07-21 08:36:37 -0700" startDate="2026-07-21 07:55:12 -0700" endDate="2026-07-21 08:25:12 -0700" value="40.6909" />
+ <Record type="HKQuantityTypeIdentifierEnvironmentalAudioExposure" sourceName="Apple Watch" sourceVersion="26.5" unit="dBASPL" creationDate="2026-07-21 09:04:04 -0700" startDate="2026-07-21 08:25:12 -0700" endDate="2026-07-21 08:55:07 -0700" value="38.2462" />
+ <Record type="HKQuantityTypeIdentifierEnvironmentalAudioExposure" sourceName="Apple Watch" sourceVersion="26.5" unit="dBASPL" creationDate="2026-07-21 09:34:26 -0700" startDate="2026-07-21 08:55:07 -0700" endDate="2026-07-21 09:25:02 -0700" value="54.3624" />
+ <Record type="HKQuantityTypeIdentifierEnvironmentalAudioExposure" sourceName="Apple Watch" sourceVersion="26.5" unit="dBASPL" creationDate="2026-07-21 10:01:55 -0700" startDate="2026-07-21 09:25:02 -0700" endDate="2026-07-21 09:55:02 -0700" value="65.7675" />
+ <Record type="HKQuantityTypeIdentifierAppleStandTime" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="min" creationDate="2026-07-21 09:25:24 -0700" startDate="2026-07-21 09:20:00 -0700" endDate="2026-07-21 09:25:00 -0700" value="1" />
+ <Record type="HKQuantityTypeIdentifierAppleStandTime" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="min" creationDate="2026-07-21 09:30:12 -0700" startDate="2026-07-21 09:25:00 -0700" endDate="2026-07-21 09:30:00 -0700" value="2" />
+ <Record type="HKQuantityTypeIdentifierAppleStandTime" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="min" creationDate="2026-07-21 09:35:06 -0700" startDate="2026-07-21 09:30:00 -0700" endDate="2026-07-21 09:35:00 -0700" value="5" />
+ <Record type="HKQuantityTypeIdentifierAppleStandTime" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="min" creationDate="2026-07-21 09:41:29 -0700" startDate="2026-07-21 09:35:00 -0700" endDate="2026-07-21 09:40:00 -0700" value="3" />
+ <Record type="HKQuantityTypeIdentifierAppleStandTime" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="min" creationDate="2026-07-21 09:46:02 -0700" startDate="2026-07-21 09:40:00 -0700" endDate="2026-07-21 09:45:00 -0700" value="3" />
+ <Record type="HKQuantityTypeIdentifierAppleStandTime" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="min" creationDate="2026-07-21 09:50:06 -0700" startDate="2026-07-21 09:45:00 -0700" endDate="2026-07-21 09:50:00 -0700" value="2" />
+ <Record type="HKQuantityTypeIdentifierAppleStandTime" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="min" creationDate="2026-07-21 09:55:13 -0700" startDate="2026-07-21 09:50:00 -0700" endDate="2026-07-21 09:55:00 -0700" value="4" />
+ <Record type="HKQuantityTypeIdentifierAppleStandTime" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="min" creationDate="2026-07-21 10:00:52 -0700" startDate="2026-07-21 09:55:00 -0700" endDate="2026-07-21 10:00:00 -0700" value="5" />
+ <Record type="HKQuantityTypeIdentifierAppleStandTime" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="min" creationDate="2026-07-21 10:05:07 -0700" startDate="2026-07-21 10:00:00 -0700" endDate="2026-07-21 10:05:00 -0700" value="5" />
+ <Record type="HKQuantityTypeIdentifierAppleStandTime" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="min" creationDate="2026-07-21 10:10:29 -0700" startDate="2026-07-21 10:05:00 -0700" endDate="2026-07-21 10:10:00 -0700" value="5" />
+ <Record type="HKQuantityTypeIdentifierAppleStandTime" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="min" creationDate="2026-07-21 10:19:39 -0700" startDate="2026-07-21 10:10:00 -0700" endDate="2026-07-21 10:15:00 -0700" value="5" />
+ <Record type="HKQuantityTypeIdentifierAppleStandTime" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="min" creationDate="2026-07-21 10:20:13 -0700" startDate="2026-07-21 10:15:00 -0700" endDate="2026-07-21 10:20:00 -0700" value="2" />
+ <Record type="HKQuantityTypeIdentifierAppleStandTime" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="min" creationDate="2026-07-21 11:30:45 -0700" startDate="2026-07-21 11:25:00 -0700" endDate="2026-07-21 11:30:00 -0700" value="1" />
+ <Record type="HKQuantityTypeIdentifierAppleSleepingWristTemperature" sourceName="Apple Watch" sourceVersion="26.5" unit="degF" creationDate="2026-07-21 07:50:15 -0700" startDate="2026-07-21 02:07:32 -0700" endDate="2026-07-21 07:50:13 -0700" value="95.5957">
+  <MetadataEntry key="HKAlgorithmVersion" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-20 19:08:42 -0700" startDate="2026-07-20 18:04:20 -0700" endDate="2026-07-20 19:04:20 -0700" value="1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-20 20:08:35 -0700" startDate="2026-07-20 19:04:20 -0700" endDate="2026-07-20 20:04:19 -0700" value="1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-20 21:05:59 -0700" startDate="2026-07-20 20:04:19 -0700" endDate="2026-07-20 21:04:19 -0700" value="1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-20 22:46:11 -0700" startDate="2026-07-20 21:40:57 -0700" endDate="2026-07-20 22:40:56 -0700" value="1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-20 23:44:35 -0700" startDate="2026-07-20 22:40:57 -0700" endDate="2026-07-20 23:40:56 -0700" value="1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 00:35:07 -0700" startDate="2026-07-20 23:40:56 -0700" endDate="2026-07-21 00:08:11 -0700" value="1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 01:14:28 -0700" startDate="2026-07-21 00:35:05 -0700" endDate="2026-07-21 00:35:07 -0700" value="1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 02:07:25 -0700" startDate="2026-07-21 01:14:26 -0700" endDate="2026-07-21 01:14:28 -0700" value="1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 02:07:46 -0700" startDate="2026-07-21 02:07:23 -0700" endDate="2026-07-21 02:07:35 -0700" value="3">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 02:07:59 -0700" startDate="2026-07-21 02:07:35 -0700" endDate="2026-07-21 02:07:48 -0700" value="3.9">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 03:12:48 -0700" startDate="2026-07-21 02:07:48 -0700" endDate="2026-07-21 03:07:47 -0700" value="1.1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 03:36:32 -0700" startDate="2026-07-21 03:07:47 -0700" endDate="2026-07-21 03:36:01 -0700" value="1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 03:37:23 -0700" startDate="2026-07-21 03:36:01 -0700" endDate="2026-07-21 03:36:16 -0700" value="4.9">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 04:36:34 -0700" startDate="2026-07-21 03:36:16 -0700" endDate="2026-07-21 04:36:15 -0700" value="1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 05:36:33 -0700" startDate="2026-07-21 04:36:15 -0700" endDate="2026-07-21 05:36:14 -0700" value="1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 06:36:19 -0700" startDate="2026-07-21 05:36:14 -0700" endDate="2026-07-21 06:36:14 -0700" value="1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 07:36:36 -0700" startDate="2026-07-21 06:36:14 -0700" endDate="2026-07-21 07:36:13 -0700" value="1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 08:36:38 -0700" startDate="2026-07-21 07:36:13 -0700" endDate="2026-07-21 08:36:12 -0700" value="1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:23:03 -0700" startDate="2026-07-21 08:36:12 -0700" endDate="2026-07-21 09:22:16 -0700" value="1.1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:23:03 -0700" startDate="2026-07-21 09:22:16 -0700" endDate="2026-07-21 09:22:26 -0700" value="4.8">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:26:26 -0700" startDate="2026-07-21 09:22:26 -0700" endDate="2026-07-21 09:25:52 -0700" value="1.8">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:26:26 -0700" startDate="2026-07-21 09:25:52 -0700" endDate="2026-07-21 09:26:08 -0700" value="4.4">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:27:10 -0700" startDate="2026-07-21 09:26:08 -0700" endDate="2026-07-21 09:26:18 -0700" value="5.2">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:27:56 -0700" startDate="2026-07-21 09:26:18 -0700" endDate="2026-07-21 09:27:30 -0700" value="2">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:28:01 -0700" startDate="2026-07-21 09:27:30 -0700" endDate="2026-07-21 09:27:51 -0700" value="4.7">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:29:41 -0700" startDate="2026-07-21 09:27:51 -0700" endDate="2026-07-21 09:29:10 -0700" value="2.1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:29:41 -0700" startDate="2026-07-21 09:29:10 -0700" endDate="2026-07-21 09:29:31 -0700" value="3.5">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:29:59 -0700" startDate="2026-07-21 09:29:31 -0700" endDate="2026-07-21 09:29:41 -0700" value="3.8">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:30:28 -0700" startDate="2026-07-21 09:29:41 -0700" endDate="2026-07-21 09:30:15 -0700" value="1.9">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:30:38 -0700" startDate="2026-07-21 09:30:15 -0700" endDate="2026-07-21 09:30:28 -0700" value="4.3">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:31:22 -0700" startDate="2026-07-21 09:30:28 -0700" endDate="2026-07-21 09:30:35 -0700" value="2.1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:31:22 -0700" startDate="2026-07-21 09:30:35 -0700" endDate="2026-07-21 09:30:46 -0700" value="4.6">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:31:22 -0700" startDate="2026-07-21 09:30:46 -0700" endDate="2026-07-21 09:30:56 -0700" value="3.9">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:31:22 -0700" startDate="2026-07-21 09:30:56 -0700" endDate="2026-07-21 09:31:06 -0700" value="3.5">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:33:30 -0700" startDate="2026-07-21 09:31:06 -0700" endDate="2026-07-21 09:32:31 -0700" value="2.3">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:33:30 -0700" startDate="2026-07-21 09:32:31 -0700" endDate="2026-07-21 09:32:41 -0700" value="4.8">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:34:32 -0700" startDate="2026-07-21 09:32:41 -0700" endDate="2026-07-21 09:33:38 -0700" value="2.5">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:34:32 -0700" startDate="2026-07-21 09:33:38 -0700" endDate="2026-07-21 09:33:51 -0700" value="4.4">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:34:32 -0700" startDate="2026-07-21 09:33:51 -0700" endDate="2026-07-21 09:34:09 -0700" value="2.7">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:34:55 -0700" startDate="2026-07-21 09:34:09 -0700" endDate="2026-07-21 09:34:19 -0700" value="3.6">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:35:00 -0700" startDate="2026-07-21 09:34:19 -0700" endDate="2026-07-21 09:34:50 -0700" value="4.3">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:38:01 -0700" startDate="2026-07-21 09:34:50 -0700" endDate="2026-07-21 09:35:21 -0700" value="2.1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:38:01 -0700" startDate="2026-07-21 09:35:21 -0700" endDate="2026-07-21 09:35:31 -0700" value="4.4">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:38:01 -0700" startDate="2026-07-21 09:35:31 -0700" endDate="2026-07-21 09:35:57 -0700" value="2.3">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:38:01 -0700" startDate="2026-07-21 09:35:57 -0700" endDate="2026-07-21 09:36:10 -0700" value="4.5">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:42:57 -0700" startDate="2026-07-21 09:36:10 -0700" endDate="2026-07-21 09:42:38 -0700" value="2">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:42:59 -0700" startDate="2026-07-21 09:42:38 -0700" endDate="2026-07-21 09:42:49 -0700" value="4.4">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:44:37 -0700" startDate="2026-07-21 09:42:49 -0700" endDate="2026-07-21 09:43:40 -0700" value="2.7">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:44:37 -0700" startDate="2026-07-21 09:43:40 -0700" endDate="2026-07-21 09:43:50 -0700" value="5">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:44:37 -0700" startDate="2026-07-21 09:43:50 -0700" endDate="2026-07-21 09:43:56 -0700" value="2.1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:44:37 -0700" startDate="2026-07-21 09:43:56 -0700" endDate="2026-07-21 09:44:14 -0700" value="4.2">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:44:55 -0700" startDate="2026-07-21 09:44:14 -0700" endDate="2026-07-21 09:44:34 -0700" value="2.2">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:44:55 -0700" startDate="2026-07-21 09:44:34 -0700" endDate="2026-07-21 09:44:45 -0700" value="4.6">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:46:02 -0700" startDate="2026-07-21 09:44:45 -0700" endDate="2026-07-21 09:45:21 -0700" value="1.6">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:46:02 -0700" startDate="2026-07-21 09:45:21 -0700" endDate="2026-07-21 09:45:36 -0700" value="4.6">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:46:46 -0700" startDate="2026-07-21 09:45:36 -0700" endDate="2026-07-21 09:46:07 -0700" value="2.1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:46:46 -0700" startDate="2026-07-21 09:46:07 -0700" endDate="2026-07-21 09:46:30 -0700" value="3">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:49:05 -0700" startDate="2026-07-21 09:46:30 -0700" endDate="2026-07-21 09:48:46 -0700" value="1.8">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:49:12 -0700" startDate="2026-07-21 09:48:46 -0700" endDate="2026-07-21 09:49:02 -0700" value="4.5">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:49:23 -0700" startDate="2026-07-21 09:49:02 -0700" endDate="2026-07-21 09:49:10 -0700" value="3.3">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:49:33 -0700" startDate="2026-07-21 09:49:10 -0700" endDate="2026-07-21 09:49:20 -0700" value="3.5">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:49:54 -0700" startDate="2026-07-21 09:49:20 -0700" endDate="2026-07-21 09:49:40 -0700" value="3.5">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:50:06 -0700" startDate="2026-07-21 09:49:40 -0700" endDate="2026-07-21 09:49:53 -0700" value="2.9">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:51:11 -0700" startDate="2026-07-21 09:49:53 -0700" endDate="2026-07-21 09:50:37 -0700" value="2">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:51:11 -0700" startDate="2026-07-21 09:50:37 -0700" endDate="2026-07-21 09:50:53 -0700" value="4.9">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:51:16 -0700" startDate="2026-07-21 09:50:53 -0700" endDate="2026-07-21 09:51:05 -0700" value="3.7">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:51:36 -0700" startDate="2026-07-21 09:51:05 -0700" endDate="2026-07-21 09:51:23 -0700" value="2">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:52:07 -0700" startDate="2026-07-21 09:51:23 -0700" endDate="2026-07-21 09:51:41 -0700" value="4.6">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:52:07 -0700" startDate="2026-07-21 09:51:41 -0700" endDate="2026-07-21 09:51:54 -0700" value="1.9">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:52:18 -0700" startDate="2026-07-21 09:51:54 -0700" endDate="2026-07-21 09:52:05 -0700" value="4.9">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:52:28 -0700" startDate="2026-07-21 09:52:05 -0700" endDate="2026-07-21 09:52:20 -0700" value="3.2">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:55:13 -0700" startDate="2026-07-21 09:52:20 -0700" endDate="2026-07-21 09:54:00 -0700" value="2.1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:55:13 -0700" startDate="2026-07-21 09:54:00 -0700" endDate="2026-07-21 09:54:11 -0700" value="4.8">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:55:13 -0700" startDate="2026-07-21 09:54:11 -0700" endDate="2026-07-21 09:54:31 -0700" value="2.8">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:55:13 -0700" startDate="2026-07-21 09:54:31 -0700" endDate="2026-07-21 09:54:44 -0700" value="3.7">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:55:46 -0700" startDate="2026-07-21 09:54:44 -0700" endDate="2026-07-21 09:55:33 -0700" value="2.1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:58:14 -0700" startDate="2026-07-21 09:55:33 -0700" endDate="2026-07-21 09:56:19 -0700" value="3.9">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:58:14 -0700" startDate="2026-07-21 09:56:19 -0700" endDate="2026-07-21 09:56:30 -0700" value="2.1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:58:14 -0700" startDate="2026-07-21 09:56:30 -0700" endDate="2026-07-21 09:56:40 -0700" value="5.4">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:58:14 -0700" startDate="2026-07-21 09:56:40 -0700" endDate="2026-07-21 09:57:11 -0700" value="4">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:58:14 -0700" startDate="2026-07-21 09:57:11 -0700" endDate="2026-07-21 09:57:16 -0700" value="2.7">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:58:14 -0700" startDate="2026-07-21 09:57:16 -0700" endDate="2026-07-21 09:57:31 -0700" value="2.1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 09:58:16 -0700" startDate="2026-07-21 09:57:31 -0700" endDate="2026-07-21 09:58:07 -0700" value="4.6">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:00:52 -0700" startDate="2026-07-21 09:58:07 -0700" endDate="2026-07-21 09:58:18 -0700" value="5">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:00:52 -0700" startDate="2026-07-21 09:58:18 -0700" endDate="2026-07-21 09:58:23 -0700" value="4">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:00:52 -0700" startDate="2026-07-21 09:58:23 -0700" endDate="2026-07-21 09:58:38 -0700" value="4.4">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:00:52 -0700" startDate="2026-07-21 09:58:38 -0700" endDate="2026-07-21 09:58:49 -0700" value="3.6">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:00:52 -0700" startDate="2026-07-21 09:58:49 -0700" endDate="2026-07-21 09:59:07 -0700" value="2.1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:00:52 -0700" startDate="2026-07-21 09:59:07 -0700" endDate="2026-07-21 09:59:17 -0700" value="5.1">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:00:52 -0700" startDate="2026-07-21 09:59:17 -0700" endDate="2026-07-21 09:59:40 -0700" value="4.3">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:00:52 -0700" startDate="2026-07-21 09:59:40 -0700" endDate="2026-07-21 09:59:53 -0700" value="3.5">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:01:33 -0700" startDate="2026-07-21 09:59:53 -0700" endDate="2026-07-21 10:01:20 -0700" value="2.5">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:01:57 -0700" startDate="2026-07-21 10:01:20 -0700" endDate="2026-07-21 10:01:46 -0700" value="5">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:02:09 -0700" startDate="2026-07-21 10:01:46 -0700" endDate="2026-07-21 10:01:56 -0700" value="4.6">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:03:22 -0700" startDate="2026-07-21 10:01:56 -0700" endDate="2026-07-21 10:03:06 -0700" value="3.4">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:03:24 -0700" startDate="2026-07-21 10:03:06 -0700" endDate="2026-07-21 10:03:11 -0700" value="2.1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:04:21 -0700" startDate="2026-07-21 10:03:11 -0700" endDate="2026-07-21 10:03:21 -0700" value="5.3">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:04:21 -0700" startDate="2026-07-21 10:03:21 -0700" endDate="2026-07-21 10:03:34 -0700" value="2.1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:04:21 -0700" startDate="2026-07-21 10:03:34 -0700" endDate="2026-07-21 10:03:45 -0700" value="4.6">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:04:21 -0700" startDate="2026-07-21 10:03:45 -0700" endDate="2026-07-21 10:04:00 -0700" value="3.1">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:04:25 -0700" startDate="2026-07-21 10:04:00 -0700" endDate="2026-07-21 10:04:10 -0700" value="2.1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:04:34 -0700" startDate="2026-07-21 10:04:10 -0700" endDate="2026-07-21 10:04:21 -0700" value="4.1">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:05:07 -0700" startDate="2026-07-21 10:04:21 -0700" endDate="2026-07-21 10:04:49 -0700" value="3.4">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:05:35 -0700" startDate="2026-07-21 10:04:49 -0700" endDate="2026-07-21 10:05:20 -0700" value="1.7">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:05:43 -0700" startDate="2026-07-21 10:05:20 -0700" endDate="2026-07-21 10:05:33 -0700" value="4.6">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:07:26 -0700" startDate="2026-07-21 10:05:33 -0700" endDate="2026-07-21 10:05:40 -0700" value="3.6">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:07:26 -0700" startDate="2026-07-21 10:05:40 -0700" endDate="2026-07-21 10:06:14 -0700" value="3.1">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:07:26 -0700" startDate="2026-07-21 10:06:14 -0700" endDate="2026-07-21 10:06:19 -0700" value="2.8">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:07:26 -0700" startDate="2026-07-21 10:06:19 -0700" endDate="2026-07-21 10:06:42 -0700" value="2.1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:07:26 -0700" startDate="2026-07-21 10:06:42 -0700" endDate="2026-07-21 10:06:52 -0700" value="4.3">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:07:26 -0700" startDate="2026-07-21 10:06:52 -0700" endDate="2026-07-21 10:07:08 -0700" value="3.2">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:10:29 -0700" startDate="2026-07-21 10:07:08 -0700" endDate="2026-07-21 10:08:20 -0700" value="3.3">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:10:29 -0700" startDate="2026-07-21 10:08:20 -0700" endDate="2026-07-21 10:09:27 -0700" value="2.9">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:10:29 -0700" startDate="2026-07-21 10:09:27 -0700" endDate="2026-07-21 10:09:40 -0700" value="3.3">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:10:29 -0700" startDate="2026-07-21 10:09:40 -0700" endDate="2026-07-21 10:09:55 -0700" value="2.1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:10:29 -0700" startDate="2026-07-21 10:09:55 -0700" endDate="2026-07-21 10:10:05 -0700" value="4.7">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:10:29 -0700" startDate="2026-07-21 10:10:05 -0700" endDate="2026-07-21 10:10:16 -0700" value="2.8">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:11:56 -0700" startDate="2026-07-21 10:10:16 -0700" endDate="2026-07-21 10:10:47 -0700" value="2">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:11:56 -0700" startDate="2026-07-21 10:10:47 -0700" endDate="2026-07-21 10:10:57 -0700" value="5.6">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:11:56 -0700" startDate="2026-07-21 10:10:57 -0700" endDate="2026-07-21 10:11:10 -0700" value="3.4">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:11:56 -0700" startDate="2026-07-21 10:11:10 -0700" endDate="2026-07-21 10:11:30 -0700" value="2.7">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:13:00 -0700" startDate="2026-07-21 10:11:30 -0700" endDate="2026-07-21 10:11:43 -0700" value="3.1">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:13:00 -0700" startDate="2026-07-21 10:11:43 -0700" endDate="2026-07-21 10:11:59 -0700" value="3.4">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:13:00 -0700" startDate="2026-07-21 10:11:59 -0700" endDate="2026-07-21 10:12:17 -0700" value="2.1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:13:00 -0700" startDate="2026-07-21 10:12:17 -0700" endDate="2026-07-21 10:12:27 -0700" value="7.4">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:13:00 -0700" startDate="2026-07-21 10:12:27 -0700" endDate="2026-07-21 10:12:45 -0700" value="3.9">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:14:49 -0700" startDate="2026-07-21 10:12:45 -0700" endDate="2026-07-21 10:14:05 -0700" value="4.5">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:19:39 -0700" startDate="2026-07-21 10:14:05 -0700" endDate="2026-07-21 10:14:56 -0700" value="5.1">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:19:39 -0700" startDate="2026-07-21 10:14:56 -0700" endDate="2026-07-21 10:15:04 -0700" value="5.5">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:19:39 -0700" startDate="2026-07-21 10:15:04 -0700" endDate="2026-07-21 10:15:14 -0700" value="4.8">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:19:39 -0700" startDate="2026-07-21 10:15:14 -0700" endDate="2026-07-21 10:15:25 -0700" value="4.4">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:19:39 -0700" startDate="2026-07-21 10:15:25 -0700" endDate="2026-07-21 10:15:45 -0700" value="4.9">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:19:39 -0700" startDate="2026-07-21 10:15:45 -0700" endDate="2026-07-21 10:15:58 -0700" value="3.9">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:19:39 -0700" startDate="2026-07-21 10:15:58 -0700" endDate="2026-07-21 10:16:08 -0700" value="3.4">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:19:39 -0700" startDate="2026-07-21 10:16:08 -0700" endDate="2026-07-21 10:16:34 -0700" value="2.5">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:19:39 -0700" startDate="2026-07-21 10:16:34 -0700" endDate="2026-07-21 10:16:39 -0700" value="3.3">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:19:39 -0700" startDate="2026-07-21 10:16:39 -0700" endDate="2026-07-21 10:18:02 -0700" value="1.7">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:19:40 -0700" startDate="2026-07-21 10:18:02 -0700" endDate="2026-07-21 10:18:22 -0700" value="3.9">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:19:40 -0700" startDate="2026-07-21 10:18:22 -0700" endDate="2026-07-21 10:19:03 -0700" value="2.4">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:19:40 -0700" startDate="2026-07-21 10:19:03 -0700" endDate="2026-07-21 10:19:11 -0700" value="4.5">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:19:40 -0700" startDate="2026-07-21 10:19:11 -0700" endDate="2026-07-21 10:19:21 -0700" value="4.6">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 10:19:40 -0700" startDate="2026-07-21 10:19:21 -0700" endDate="2026-07-21 10:19:29 -0700" value="5.6">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 11:20:33 -0700" startDate="2026-07-21 10:19:29 -0700" endDate="2026-07-21 11:19:28 -0700" value="1.1">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 11:30:43 -0700" startDate="2026-07-21 11:19:28 -0700" endDate="2026-07-21 11:25:44 -0700" value="1.3">
+  <MetadataEntry key="HKActivityType" value="3000" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKQuantityTypeIdentifierPhysicalEffort" sourceName="Apple Watch" sourceVersion="3075.0.8" unit="kcal/hr·kg" creationDate="2026-07-21 11:30:45 -0700" startDate="2026-07-21 11:25:44 -0700" endDate="2026-07-21 11:25:54 -0700" value="5.4">
+  <MetadataEntry key="HKActivityType" value="52" />
+  <MetadataEntry key="HKAlgorithmVersion" value="1" />
+  <MetadataEntry key="HKPhysicalEffortEstimationType" value="2" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 02:22:36 -0700" endDate="2026-07-21 03:12:23 -0700" value="HKCategoryValueSleepAnalysisAsleepCore">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 03:12:23 -0700" endDate="2026-07-21 03:17:55 -0700" value="HKCategoryValueSleepAnalysisAwake">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 03:17:55 -0700" endDate="2026-07-21 03:48:35 -0700" value="HKCategoryValueSleepAnalysisAsleepCore">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 03:48:35 -0700" endDate="2026-07-21 03:57:38 -0700" value="HKCategoryValueSleepAnalysisAsleepDeep">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 03:57:38 -0700" endDate="2026-07-21 03:58:38 -0700" value="HKCategoryValueSleepAnalysisAsleepCore">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 03:58:38 -0700" endDate="2026-07-21 04:12:13 -0700" value="HKCategoryValueSleepAnalysisAsleepDeep">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 04:12:13 -0700" endDate="2026-07-21 04:24:17 -0700" value="HKCategoryValueSleepAnalysisAsleepCore">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 04:24:17 -0700" endDate="2026-07-21 04:27:48 -0700" value="HKCategoryValueSleepAnalysisAsleepREM">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 04:27:48 -0700" endDate="2026-07-21 04:49:25 -0700" value="HKCategoryValueSleepAnalysisAsleepCore">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 04:49:25 -0700" endDate="2026-07-21 05:06:01 -0700" value="HKCategoryValueSleepAnalysisAsleepREM">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 05:06:01 -0700" endDate="2026-07-21 05:56:18 -0700" value="HKCategoryValueSleepAnalysisAsleepCore">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 05:56:18 -0700" endDate="2026-07-21 06:00:19 -0700" value="HKCategoryValueSleepAnalysisAsleepDeep">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 06:00:19 -0700" endDate="2026-07-21 06:09:52 -0700" value="HKCategoryValueSleepAnalysisAsleepCore">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 06:09:52 -0700" endDate="2026-07-21 06:35:31 -0700" value="HKCategoryValueSleepAnalysisAsleepREM">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 06:35:31 -0700" endDate="2026-07-21 06:36:32 -0700" value="HKCategoryValueSleepAnalysisAwake">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 06:36:32 -0700" endDate="2026-07-21 07:18:46 -0700" value="HKCategoryValueSleepAnalysisAsleepCore">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 07:18:46 -0700" endDate="2026-07-21 07:22:47 -0700" value="HKCategoryValueSleepAnalysisAsleepDeep">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 07:22:47 -0700" endDate="2026-07-21 08:34:11 -0700" value="HKCategoryValueSleepAnalysisAsleepCore">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 08:34:11 -0700" endDate="2026-07-21 08:38:43 -0700" value="HKCategoryValueSleepAnalysisAwake">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 08:38:43 -0700" endDate="2026-07-21 08:43:14 -0700" value="HKCategoryValueSleepAnalysisAsleepCore">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 08:43:14 -0700" endDate="2026-07-21 08:47:15 -0700" value="HKCategoryValueSleepAnalysisAsleepREM">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 08:47:15 -0700" endDate="2026-07-21 08:48:46 -0700" value="HKCategoryValueSleepAnalysisAsleepCore">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:57:16 -0700" startDate="2026-07-21 08:48:46 -0700" endDate="2026-07-21 08:53:17 -0700" value="HKCategoryValueSleepAnalysisAsleepREM">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles" />
+ </Record>
+ <Record type="HKCategoryTypeIdentifierAppleStandHour" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 03:04:47 -0700" startDate="2026-07-21 02:00:00 -0700" endDate="2026-07-21 03:00:00 -0700" value="HKCategoryValueAppleStandHourIdle" />
+ <Record type="HKCategoryTypeIdentifierAppleStandHour" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 04:05:49 -0700" startDate="2026-07-21 03:00:00 -0700" endDate="2026-07-21 04:00:00 -0700" value="HKCategoryValueAppleStandHourIdle" />
+ <Record type="HKCategoryTypeIdentifierAppleStandHour" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 05:02:41 -0700" startDate="2026-07-21 04:00:00 -0700" endDate="2026-07-21 05:00:00 -0700" value="HKCategoryValueAppleStandHourIdle" />
+ <Record type="HKCategoryTypeIdentifierAppleStandHour" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 06:00:04 -0700" startDate="2026-07-21 05:00:00 -0700" endDate="2026-07-21 06:00:00 -0700" value="HKCategoryValueAppleStandHourIdle" />
+ <Record type="HKCategoryTypeIdentifierAppleStandHour" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 07:03:57 -0700" startDate="2026-07-21 06:00:00 -0700" endDate="2026-07-21 07:00:00 -0700" value="HKCategoryValueAppleStandHourIdle" />
+ <Record type="HKCategoryTypeIdentifierAppleStandHour" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 08:00:43 -0700" startDate="2026-07-21 07:00:00 -0700" endDate="2026-07-21 08:00:00 -0700" value="HKCategoryValueAppleStandHourIdle" />
+ <Record type="HKCategoryTypeIdentifierAppleStandHour" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 09:00:13 -0700" startDate="2026-07-21 08:00:00 -0700" endDate="2026-07-21 09:00:00 -0700" value="HKCategoryValueAppleStandHourIdle" />
+ <Record type="HKCategoryTypeIdentifierAppleStandHour" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 09:23:31 -0700" startDate="2026-07-21 09:00:00 -0700" endDate="2026-07-21 10:00:00 -0700" value="HKCategoryValueAppleStandHourStood" />
+ <Record type="HKCategoryTypeIdentifierAppleStandHour" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 10:00:58 -0700" startDate="2026-07-21 10:00:00 -0700" endDate="2026-07-21 11:00:00 -0700" value="HKCategoryValueAppleStandHourStood" />
+ <Record type="HKCategoryTypeIdentifierAppleStandHour" sourceName="Apple Watch" sourceVersion="26.5" creationDate="2026-07-21 11:25:52 -0700" startDate="2026-07-21 11:00:00 -0700" endDate="2026-07-21 12:00:00 -0700" value="HKCategoryValueAppleStandHourStood" />
+ <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="Apple Watch" sourceVersion="26.5" unit="ms" creationDate="2026-07-21 02:13:15 -0700" startDate="2026-07-21 02:12:14 -0700" endDate="2026-07-21 02:13:14 -0700" value="21.9439">
+  <MetadataEntry key="HKAlgorithmVersion" value="2" />
+  <HeartRateVariabilityMetadataList>
+   <InstantaneousBeatsPerMinute bpm="76" time="2:12:16.15 AM" />
+   <InstantaneousBeatsPerMinute bpm="77" time="2:12:16.93 AM" />
+   <InstantaneousBeatsPerMinute bpm="77" time="2:12:17.71 AM" />
+   <InstantaneousBeatsPerMinute bpm="74" time="2:12:18.53 AM" />
+   <InstantaneousBeatsPerMinute bpm="74" time="2:12:19.34 AM" />
+   <InstantaneousBeatsPerMinute bpm="74" time="2:12:20.15 AM" />
+   <InstantaneousBeatsPerMinute bpm="74" time="2:12:20.96 AM" />
+   <InstantaneousBeatsPerMinute bpm="75" time="2:12:21.76 AM" />
+   <InstantaneousBeatsPerMinute bpm="74" time="2:12:22.57 AM" />
+   <InstantaneousBeatsPerMinute bpm="74" time="2:12:23.38 AM" />
+   <InstantaneousBeatsPerMinute bpm="74" time="2:12:24.19 AM" />
+   <InstantaneousBeatsPerMinute bpm="77" time="2:12:24.97 AM" />
+   <InstantaneousBeatsPerMinute bpm="78" time="2:12:25.74 AM" />
+   <InstantaneousBeatsPerMinute bpm="78" time="2:12:26.51 AM" />
+   <InstantaneousBeatsPerMinute bpm="78" time="2:12:27.28 AM" />
+   <InstantaneousBeatsPerMinute bpm="78" time="2:12:28.05 AM" />
+   <InstantaneousBeatsPerMinute bpm="78" time="2:12:28.83 AM" />
+   <InstantaneousBeatsPerMinute bpm="77" time="2:12:29.61 AM" />
+   <InstantaneousBeatsPerMinute bpm="77" time="2:12:30.39 AM" />
+   <InstantaneousBeatsPerMinute bpm="75" time="2:12:31.19 AM" />
+   <InstantaneousBeatsPerMinute bpm="74" time="2:12:32.00 AM" />
+   <InstantaneousBeatsPerMinute bpm="75" time="2:12:32.81 AM" />
+   <InstantaneousBeatsPerMinute bpm="75" time="2:12:33.61 AM" />
+   <InstantaneousBeatsPerMinute bpm="76" time="2:12:34.40 AM" />
+   <InstantaneousBeatsPerMinute bpm="77" time="2:12:35.18 AM" />
+   <InstantaneousBeatsPerMinute bpm="77" time="2:12:35.96 AM" />
+   <InstantaneousBeatsPerMinute bpm="77" time="2:12:36.74 AM" />
+   <InstantaneousBeatsPerMinute bpm="77" time="2:12:37.52 AM" />
+   <InstantaneousBeatsPerMinute bpm="79" time="2:12:38.29 AM" />
+   <InstantaneousBeatsPerMinute bpm="78" time="2:12:39.05 AM" />
+   <InstantaneousBeatsPerMinute bpm="79" time="2:12:39.81 AM" />
+   <InstantaneousBeatsPerMinute bpm="79" time="2:12:40.58 AM" />
+   <InstantaneousBeatsPerMinute bpm="79" time="2:12:41.33 AM" />
+   <InstantaneousBeatsPerMinute bpm="81" time="2:12:42.07 AM" />
+   <InstantaneousBeatsPerMinute bpm="81" time="2:12:42.82 AM" />
+   <InstantaneousBeatsPerMinute bpm="80" time="2:12:43.57 AM" />
+   <InstantaneousBeatsPerMinute bpm="77" time="2:12:44.34 AM" />
+   <InstantaneousBeatsPerMinute bpm="76" time="2:12:45.13 AM" />
+   <InstantaneousBeatsPerMinute bpm="77" time="2:12:45.91 AM" />
+   <InstantaneousBeatsPerMinute bpm="78" time="2:12:46.68 AM" />
+   <InstantaneousBeatsPerMinute bpm="78" time="2:12:47.45 AM" />
+   <InstantaneousBeatsPerMinute bpm="78" time="2:12:48.22 AM" />
+   <InstantaneousBeatsPerMinute bpm="79" time="2:12:48.98 AM" />
+   <InstantaneousBeatsPerMinute bpm="81" time="2:12:49.72 AM" />
+   <InstantaneousBeatsPerMinute bpm="84" time="2:12:50.44 AM" />
+   <InstantaneousBeatsPerMinute bpm="81" time="2:12:51.18 AM" />
+   <InstantaneousBeatsPerMinute bpm="81" time="2:12:51.92 AM" />
+   <InstantaneousBeatsPerMinute bpm="82" time="2:12:52.66 AM" />
+   <InstantaneousBeatsPerMinute bpm="83" time="2:12:53.39 AM" />
+   <InstantaneousBeatsPerMinute bpm="81" time="2:12:54.13 AM" />
+   <InstantaneousBeatsPerMinute bpm="80" time="2:12:54.88 AM" />
+   <InstantaneousBeatsPerMinute bpm="78" time="2:12:55.65 AM" />
+   <InstantaneousBeatsPerMinute bpm="78" time="2:12:56.41 AM" />
+   <InstantaneousBeatsPerMinute bpm="78" time="2:12:57.18 AM" />
+   <InstantaneousBeatsPerMinute bpm="77" time="2:12:57.97 AM" />
+   <InstantaneousBeatsPerMinute bpm="78" time="2:12:58.74 AM" />
+   <InstantaneousBeatsPerMinute bpm="77" time="2:12:59.52 AM" />
+   <InstantaneousBeatsPerMinute bpm="76" time="2:13:00.31 AM" />
+   <InstantaneousBeatsPerMinute bpm="77" time="2:13:01.09 AM" />
+   <InstantaneousBeatsPerMinute bpm="78" time="2:13:01.86 AM" />
+   <InstantaneousBeatsPerMinute bpm="79" time="2:13:02.61 AM" />
+   <InstantaneousBeatsPerMinute bpm="78" time="2:13:03.38 AM" />
+   <InstantaneousBeatsPerMinute bpm="76" time="2:13:04.17 AM" />
+   <InstantaneousBeatsPerMinute bpm="76" time="2:13:04.96 AM" />
+   <InstantaneousBeatsPerMinute bpm="78" time="2:13:05.73 AM" />
+   <InstantaneousBeatsPerMinute bpm="77" time="2:13:06.52 AM" />
+   <InstantaneousBeatsPerMinute bpm="75" time="2:13:07.32 AM" />
+   <InstantaneousBeatsPerMinute bpm="74" time="2:13:08.13 AM" />
+   <InstantaneousBeatsPerMinute bpm="76" time="2:13:08.91 AM" />
+   <InstantaneousBeatsPerMinute bpm="78" time="2:13:09.69 AM" />
+   <InstantaneousBeatsPerMinute bpm="78" time="2:13:10.46 AM" />
+   <InstantaneousBeatsPerMinute bpm="77" time="2:13:11.24 AM" />
+   <InstantaneousBeatsPerMinute bpm="80" time="2:13:11.99 AM" />
+   <InstantaneousBeatsPerMinute bpm="80" time="2:13:12.74 AM" />
+   <InstantaneousBeatsPerMinute bpm="79" time="2:13:13.50 AM" />
+   <InstantaneousBeatsPerMinute bpm="78" time="2:13:14.27 AM" />
+  </HeartRateVariabilityMetadataList>
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="Apple Watch" sourceVersion="26.5" unit="ms" creationDate="2026-07-21 03:59:13 -0700" startDate="2026-07-21 03:58:12 -0700" endDate="2026-07-21 03:59:12 -0700" value="26.654">
+  <MetadataEntry key="HKAlgorithmVersion" value="2" />
+  <HeartRateVariabilityMetadataList>
+   <InstantaneousBeatsPerMinute bpm="63" time="3:58:14.11 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="3:58:15.04 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="3:58:15.95 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="3:58:16.89 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="3:58:17.85 AM" />
+   <InstantaneousBeatsPerMinute bpm="60" time="3:58:18.84 AM" />
+   <InstantaneousBeatsPerMinute bpm="61" time="3:58:19.83 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="3:58:20.76 AM" />
+   <InstantaneousBeatsPerMinute bpm="61" time="3:58:21.75 AM" />
+   <InstantaneousBeatsPerMinute bpm="60" time="3:58:22.74 AM" />
+   <InstantaneousBeatsPerMinute bpm="61" time="3:58:23.73 AM" />
+   <InstantaneousBeatsPerMinute bpm="61" time="3:58:24.70 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="3:58:25.64 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="3:58:26.60 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="3:58:27.56 AM" />
+   <InstantaneousBeatsPerMinute bpm="63" time="3:58:28.51 AM" />
+   <InstantaneousBeatsPerMinute bpm="63" time="3:58:29.45 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="3:58:30.39 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="3:58:31.30 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="3:58:32.23 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="3:58:33.17 AM" />
+   <InstantaneousBeatsPerMinute bpm="63" time="3:58:34.13 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="3:58:35.09 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="3:58:36.01 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="3:58:36.94 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="3:58:37.87 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="3:58:38.81 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="3:58:39.78 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="3:58:40.70 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="3:58:41.61 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="3:58:42.52 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="3:58:43.46 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="3:58:44.39 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="3:58:45.32 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="3:58:46.26 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="3:58:47.23 AM" />
+   <InstantaneousBeatsPerMinute bpm="60" time="3:58:48.23 AM" />
+   <InstantaneousBeatsPerMinute bpm="60" time="3:58:49.24 AM" />
+   <InstantaneousBeatsPerMinute bpm="61" time="3:58:50.22 AM" />
+   <InstantaneousBeatsPerMinute bpm="63" time="3:58:51.18 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="3:58:52.14 AM" />
+   <InstantaneousBeatsPerMinute bpm="63" time="3:58:53.09 AM" />
+   <InstantaneousBeatsPerMinute bpm="63" time="3:58:54.04 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="3:58:54.98 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="3:58:55.89 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="3:58:56.82 AM" />
+   <InstantaneousBeatsPerMinute bpm="63" time="3:58:57.76 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="3:58:58.70 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="3:58:59.64 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="3:59:00.56 AM" />
+   <InstantaneousBeatsPerMinute bpm="67" time="3:59:01.46 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="3:59:02.39 AM" />
+   <InstantaneousBeatsPerMinute bpm="61" time="3:59:03.37 AM" />
+   <InstantaneousBeatsPerMinute bpm="60" time="3:59:04.36 AM" />
+   <InstantaneousBeatsPerMinute bpm="61" time="3:59:05.34 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="3:59:06.28 AM" />
+   <InstantaneousBeatsPerMinute bpm="61" time="3:59:07.26 AM" />
+   <InstantaneousBeatsPerMinute bpm="60" time="3:59:08.26 AM" />
+   <InstantaneousBeatsPerMinute bpm="61" time="3:59:09.25 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="3:59:10.22 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="3:59:11.15 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="3:59:12.11 AM" />
+  </HeartRateVariabilityMetadataList>
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="Apple Watch" sourceVersion="26.5" unit="ms" creationDate="2026-07-21 05:59:15 -0700" startDate="2026-07-21 05:58:14 -0700" endDate="2026-07-21 05:59:13 -0700" value="29.4339">
+  <MetadataEntry key="HKAlgorithmVersion" value="2" />
+  <HeartRateVariabilityMetadataList>
+   <InstantaneousBeatsPerMinute bpm="65" time="5:58:15.52 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="5:58:16.44 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="5:58:17.37 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="5:58:18.34 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="5:58:19.31 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="5:58:20.27 AM" />
+   <InstantaneousBeatsPerMinute bpm="67" time="5:58:21.17 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="5:58:22.12 AM" />
+   <InstantaneousBeatsPerMinute bpm="63" time="5:58:23.06 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="5:58:24.00 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="5:58:24.96 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="5:58:25.88 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="5:58:26.79 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="5:58:27.71 AM" />
+   <InstantaneousBeatsPerMinute bpm="63" time="5:58:28.66 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="5:58:29.62 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="5:58:30.59 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="5:58:31.52 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="5:58:32.45 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="5:58:33.37 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="5:58:34.30 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="5:58:35.24 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="5:58:36.21 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="5:58:37.14 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="5:58:38.10 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="5:58:39.06 AM" />
+   <InstantaneousBeatsPerMinute bpm="60" time="5:58:40.06 AM" />
+   <InstantaneousBeatsPerMinute bpm="60" time="5:58:41.05 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="5:58:41.99 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="5:58:42.91 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="5:58:43.83 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="5:58:44.76 AM" />
+   <InstantaneousBeatsPerMinute bpm="61" time="5:58:45.74 AM" />
+   <InstantaneousBeatsPerMinute bpm="59" time="5:58:46.76 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="5:58:47.72 AM" />
+   <InstantaneousBeatsPerMinute bpm="60" time="5:58:48.72 AM" />
+   <InstantaneousBeatsPerMinute bpm="59" time="5:58:49.73 AM" />
+   <InstantaneousBeatsPerMinute bpm="58" time="5:58:50.77 AM" />
+   <InstantaneousBeatsPerMinute bpm="59" time="5:58:51.79 AM" />
+   <InstantaneousBeatsPerMinute bpm="60" time="5:58:52.80 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="5:58:53.73 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="5:58:54.69 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="5:58:55.65 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="5:58:56.61 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="5:58:57.53 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="5:58:58.45 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="5:58:59.39 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="5:59:00.33 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="5:59:01.30 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="5:59:02.23 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="5:59:03.20 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="5:59:04.17 AM" />
+   <InstantaneousBeatsPerMinute bpm="61" time="5:59:05.15 AM" />
+   <InstantaneousBeatsPerMinute bpm="63" time="5:59:06.11 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="5:59:07.07 AM" />
+   <InstantaneousBeatsPerMinute bpm="63" time="5:59:08.02 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="5:59:08.99 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="5:59:09.96 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="5:59:10.88 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="5:59:11.82 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="5:59:12.74 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="5:59:13.68 AM" />
+  </HeartRateVariabilityMetadataList>
+ </Record>
+ <Record type="HKQuantityTypeIdentifierHeartRateVariabilitySDNN" sourceName="Apple Watch" sourceVersion="26.5" unit="ms" creationDate="2026-07-21 07:59:12 -0700" startDate="2026-07-21 07:58:11 -0700" endDate="2026-07-21 07:59:10 -0700" value="49.3682">
+  <MetadataEntry key="HKAlgorithmVersion" value="2" />
+  <HeartRateVariabilityMetadataList>
+   <InstantaneousBeatsPerMinute bpm="64" time="7:58:12.64 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="7:58:13.55 AM" />
+   <InstantaneousBeatsPerMinute bpm="67" time="7:58:14.45 AM" />
+   <InstantaneousBeatsPerMinute bpm="68" time="7:58:15.33 AM" />
+   <InstantaneousBeatsPerMinute bpm="70" time="7:58:16.19 AM" />
+   <InstantaneousBeatsPerMinute bpm="70" time="7:58:17.04 AM" />
+   <InstantaneousBeatsPerMinute bpm="70" time="7:58:17.90 AM" />
+   <InstantaneousBeatsPerMinute bpm="68" time="7:58:18.79 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="7:58:19.70 AM" />
+   <InstantaneousBeatsPerMinute bpm="68" time="7:58:20.57 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="7:58:21.48 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="7:58:22.38 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="7:58:23.33 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="7:58:24.30 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="7:58:25.26 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="7:58:26.19 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="7:58:27.09 AM" />
+   <InstantaneousBeatsPerMinute bpm="67" time="7:58:27.99 AM" />
+   <InstantaneousBeatsPerMinute bpm="69" time="7:58:28.86 AM" />
+   <InstantaneousBeatsPerMinute bpm="68" time="7:58:29.74 AM" />
+   <InstantaneousBeatsPerMinute bpm="69" time="7:58:30.61 AM" />
+   <InstantaneousBeatsPerMinute bpm="67" time="7:58:31.51 AM" />
+   <InstantaneousBeatsPerMinute bpm="67" time="7:58:32.41 AM" />
+   <InstantaneousBeatsPerMinute bpm="61" time="7:58:33.40 AM" />
+   <InstantaneousBeatsPerMinute bpm="60" time="7:58:34.40 AM" />
+   <InstantaneousBeatsPerMinute bpm="61" time="7:58:35.37 AM" />
+   <InstantaneousBeatsPerMinute bpm="60" time="7:58:36.37 AM" />
+   <InstantaneousBeatsPerMinute bpm="61" time="7:58:37.35 AM" />
+   <InstantaneousBeatsPerMinute bpm="60" time="7:58:38.34 AM" />
+   <InstantaneousBeatsPerMinute bpm="61" time="7:58:39.33 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="7:58:40.26 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="7:58:41.20 AM" />
+   <InstantaneousBeatsPerMinute bpm="63" time="7:58:42.15 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="7:58:43.08 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="7:58:44.01 AM" />
+   <InstantaneousBeatsPerMinute bpm="63" time="7:58:44.96 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="7:58:45.88 AM" />
+   <InstantaneousBeatsPerMinute bpm="67" time="7:58:46.77 AM" />
+   <InstantaneousBeatsPerMinute bpm="67" time="7:58:47.67 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="7:58:48.59 AM" />
+   <InstantaneousBeatsPerMinute bpm="65" time="7:58:49.51 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="7:58:50.45 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="7:58:51.37 AM" />
+   <InstantaneousBeatsPerMinute bpm="68" time="7:58:52.24 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="7:58:53.15 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="7:58:54.06 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="7:58:54.98 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="7:58:55.89 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="7:58:56.81 AM" />
+   <InstantaneousBeatsPerMinute bpm="67" time="7:58:57.70 AM" />
+   <InstantaneousBeatsPerMinute bpm="71" time="7:58:58.54 AM" />
+   <InstantaneousBeatsPerMinute bpm="72" time="7:58:59.37 AM" />
+   <InstantaneousBeatsPerMinute bpm="74" time="7:59:00.18 AM" />
+   <InstantaneousBeatsPerMinute bpm="72" time="7:59:01.01 AM" />
+   <InstantaneousBeatsPerMinute bpm="68" time="7:59:01.89 AM" />
+   <InstantaneousBeatsPerMinute bpm="68" time="7:59:02.77 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="7:59:03.67 AM" />
+   <InstantaneousBeatsPerMinute bpm="64" time="7:59:04.61 AM" />
+   <InstantaneousBeatsPerMinute bpm="63" time="7:59:05.55 AM" />
+   <InstantaneousBeatsPerMinute bpm="66" time="7:59:06.47 AM" />
+   <InstantaneousBeatsPerMinute bpm="62" time="7:59:07.44 AM" />
+   <InstantaneousBeatsPerMinute bpm="60" time="7:59:08.44 AM" />
+   <InstantaneousBeatsPerMinute bpm="58" time="7:59:09.48 AM" />
+   <InstantaneousBeatsPerMinute bpm="56" time="7:59:10.54 AM" />
+  </HeartRateVariabilityMetadataList>
+ </Record>
+</HealthData>

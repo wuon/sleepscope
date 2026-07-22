@@ -4,9 +4,11 @@ import json
 from pathlib import Path
 from typing import Any, Iterable
 
-from sleep_analyzer.loaders import get_loader
+from sleep_analyzer.loaders import get_loader, registered_providers
 from sleep_analyzer.metrics import compare_sessions
 from sleep_analyzer.models import DataSource, NightComparison, NightManifest
+
+_COMPARISON_PROVIDERS = frozenset({"fitbit", "apple_watch", "oura"})
 
 
 def load_json(path: Path) -> Any:
@@ -55,9 +57,17 @@ def parse_night_manifest(path: Path) -> NightManifest:
         raise ValueError(
             f"{path}: v1 requires exactly one comparison entry, got {len(comparisons)}"
         )
-    if comparisons[0].provider != "fitbit":
+    comparison_provider = comparisons[0].provider
+    if comparison_provider not in _COMPARISON_PROVIDERS:
+        known = ", ".join(sorted(_COMPARISON_PROVIDERS))
         raise ValueError(
-            f"{path}: comparisons[0].provider must be 'fitbit', got '{comparisons[0].provider}'"
+            f"{path}: comparisons[0].provider must be one of {{{known}}}, "
+            f"got '{comparison_provider}'"
+        )
+    # Ensure the loader package is imported so registry checks stay in sync.
+    if comparison_provider not in registered_providers():
+        raise ValueError(
+            f"{path}: no loader registered for comparison provider '{comparison_provider}'"
         )
 
     night_id = str(payload.get("id") or path.stem)
@@ -130,7 +140,10 @@ def compare_night(manifest: NightManifest) -> list[NightComparison]:
     results: list[NightComparison] = []
     for source in manifest.comparisons:
         cmp_loader = get_loader(source.provider)
-        comparison = cmp_loader.load(resolve_path(base, source.path))
+        comparison = cmp_loader.load(
+            resolve_path(base, source.path),
+            day=source.day,
+        )
         results.append(
             compare_sessions(
                 reference,
@@ -160,4 +173,16 @@ def _parse_source(raw: Any, path: Path, *, field: str) -> DataSource:
         raise ValueError(f"{path}: {field}.provider must be a non-empty string")
     if not isinstance(source_path, str) or not source_path.strip():
         raise ValueError(f"{path}: {field}.path must be a non-empty string")
-    return DataSource(provider=provider.strip().lower(), path=source_path.strip())
+    day_raw = raw.get("day")
+    day: str | None
+    if day_raw is None:
+        day = None
+    elif isinstance(day_raw, str) and day_raw.strip():
+        day = day_raw.strip()
+    else:
+        raise ValueError(f"{path}: {field}.day must be a non-empty YYYY-MM-DD string")
+    return DataSource(
+        provider=provider.strip().lower(),
+        path=source_path.strip(),
+        day=day,
+    )

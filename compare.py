@@ -33,12 +33,14 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--out",
         type=Path,
-        help="Directory for the two timeline JSON outputs (SleepScope + Fitbit)",
+        default=ROOT / "results" / "timelines",
+        help="Directory for timeline JSON outputs (default: results/timelines)",
     )
     parser.add_argument(
         "--plots",
         type=Path,
-        help="Directory for condensed Awake/Sleep comparison hypnograms",
+        default=ROOT / "results" / "plots",
+        help="Directory for comparison hypnograms (default: results/plots)",
     )
     return parser
 
@@ -60,14 +62,12 @@ def main(argv: list[str] | None = None) -> int:
 
     print(format_console_report(comparisons), end="")
 
-    if args.out:
-        written = write_comparison_timelines(comparisons, args.out)
-        for path in written:
-            print(f"Wrote timeline: {path}")
-    if args.plots:
-        plots = write_hypnogram_plots(comparisons, args.plots)
-        for path in plots:
-            print(f"Wrote hypnogram: {path}")
+    written = write_comparison_timelines(comparisons, args.out)
+    for path in written:
+        print(f"Wrote timeline: {path}")
+    plots = write_hypnogram_plots(comparisons, args.plots)
+    for path in plots:
+        print(f"Wrote hypnogram: {path}")
 
     return 0
 

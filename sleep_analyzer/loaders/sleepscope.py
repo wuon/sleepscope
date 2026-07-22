@@ -13,7 +13,8 @@ class SleepScopeLoader:
 
     name = "sleepscope"
 
-    def load(self, path: Path) -> BinarySession:
+    def load(self, path: Path, *, day: str | None = None) -> BinarySession:
+        del day  # unused; shared loader signature with multi-day providers
         path = Path(path)
         if path.suffix.lower() != ".csv":
             raise ValueError(

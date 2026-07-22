@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HealthData [
+<!ELEMENT HealthData (ExportDate,Me,Record*)>
+<!ATTLIST HealthData locale CDATA #REQUIRED>
+<!ELEMENT ExportDate EMPTY>
+<!ATTLIST ExportDate value CDATA #REQUIRED>
+<!ELEMENT Me EMPTY>
+<!ELEMENT Record (MetadataEntry*)>
+<!ATTLIST Record
+  type CDATA #REQUIRED
+  value CDATA #IMPLIED
+  sourceName CDATA #REQUIRED
+  startDate CDATA #REQUIRED
+  endDate CDATA #REQUIRED
+>
+<!ELEMENT MetadataEntry EMPTY>
+<!ATTLIST MetadataEntry key CDATA #REQUIRED value CDATA #REQUIRED>
+]>
+<HealthData locale="en_US">
+ <ExportDate value="2026-07-18 12:00:00 -0700"/>
+ <Me/>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" startDate="2026-07-18 01:00:00 -0700" endDate="2026-07-18 02:00:00 -0700" value="HKCategoryValueSleepAnalysisInBed">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles"/>
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" startDate="2026-07-18 01:00:00 -0700" endDate="2026-07-18 01:10:00 -0700" value="HKCategoryValueSleepAnalysisAwake">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles"/>
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" startDate="2026-07-18 01:10:00 -0700" endDate="2026-07-18 01:30:00 -0700" value="HKCategoryValueSleepAnalysisAsleepCore">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles"/>
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" startDate="2026-07-18 01:30:00 -0700" endDate="2026-07-18 01:45:00 -0700" value="HKCategoryValueSleepAnalysisAsleepDeep">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles"/>
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" startDate="2026-07-18 01:45:00 -0700" endDate="2026-07-18 01:55:00 -0700" value="HKCategoryValueSleepAnalysisAsleepREM">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles"/>
+ </Record>
+ <Record type="HKCategoryTypeIdentifierSleepAnalysis" sourceName="Apple Watch" startDate="2026-07-18 01:55:00 -0700" endDate="2026-07-18 02:00:00 -0700" value="HKCategoryValueSleepAnalysisAwake">
+  <MetadataEntry key="HKTimeZone" value="America/Los_Angeles"/>
+ </Record>
+</HealthData>

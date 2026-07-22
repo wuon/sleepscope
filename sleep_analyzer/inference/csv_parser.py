@@ -183,5 +183,6 @@ def _parse_iso(value: str, path: Path, field: str) -> datetime:
     except ValueError as exc:
         raise ValueError(f"{path}: {field} has invalid timestamp '{value}'") from exc
     if parsed.tzinfo is None:
+        # TODO: confirm exporter timezone for naive stamps; assume UTC for now.
         return parsed.replace(tzinfo=timezone.utc)
     return parsed

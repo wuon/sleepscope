@@ -19,6 +19,7 @@ def test_wearable_and_phone_binary_mapping():
     assert wearable_to_binary("deep") == BinaryLabel.SLEEP
     assert wearable_to_binary("light") == BinaryLabel.SLEEP
     assert wearable_to_binary("rem") == BinaryLabel.SLEEP
+    assert wearable_to_binary("core") == BinaryLabel.SLEEP
     assert wearable_to_binary("restless") == BinaryLabel.SLEEP
     assert wearable_to_binary("wake") == BinaryLabel.AWAKE
     assert wearable_to_binary("awake") == BinaryLabel.AWAKE

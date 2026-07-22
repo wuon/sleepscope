@@ -1,0 +1,15 @@
+{
+  "id": "2026-07-17-apple-watch",
+  "date": "2026-07-17",
+  "notes": "SleepScope vs Apple Watch — night ending morning of 2026-07-17 (PDT).",
+  "reference": {
+    "provider": "sleepscope",
+    "path": "../raw/sleepscope/sleepscope_2026-07-17T07-27-50-042Z.csv"
+  },
+  "comparisons": [
+    {
+      "provider": "apple_watch",
+      "path": "../raw/apple-watch/apple_watch_night_2026-07-17.xml"
+    }
+  ]
+}

@@ -23,6 +23,16 @@ def test_parse_sensor_csv_metadata_and_invalid_db():
     assert recording.samples[0].db is None
 
 
+def test_parse_sensor_csv_z_timestamps_are_utc():
+    recording = parse_sensor_csv(FIXTURES / "sensor_sample.csv")
+    started = recording.started
+    assert started is not None
+    # Z suffix is real UTC (00:28 PDT), not Pacific wall clock.
+    assert started == datetime(2026, 7, 16, 1, 28, 25, 293000, tzinfo=timezone.utc)
+    assert recording.samples[0].timestamp.tzinfo == timezone.utc
+    assert recording.samples[0].timestamp.hour == 1
+
+
 def test_short_recording_infers_phone_stages():
     timeline = infer_phone_stages_from_csv(FIXTURES / "sensor_sample.csv")
     assert len(timeline) >= 1

@@ -21,12 +21,13 @@ class PhoneStage(str, Enum):
     QUIET_SLEEP = "QuietSleep"
 
 
-# Fitbit stage tokens → binary.
+# Wearable stage tokens → binary (Fitbit + Apple Watch).
 WEARABLE_SLEEP_STAGES = frozenset(
     {
         "deep",
         "light",
         "rem",
+        "core",  # Apple Watch AsleepCore
         "asleep",
         "restless",  # Fitbit classic restless → Sleep bucket
     }

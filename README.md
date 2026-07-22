@@ -90,11 +90,10 @@ pip install -r requirements.txt
 ## CLI
 
 ```bash
-python compare.py data/nights/example-fitbit.json \
-  --out results/timelines \
-  --plots results/plots
+python compare.py data/nights/example-fitbit.json
 ```
 
+Timelines and hypnograms write to `results/timelines` and `results/plots` by default. Override with `--out` / `--plots` if needed.
 ## Tests
 
 ```bash

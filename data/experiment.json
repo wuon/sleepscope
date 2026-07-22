@@ -1,6 +1,11 @@
 {
   "name": "sleepscope-vs-wearables",
   "nights": [
-    "nights/2026-07-12-fitbit-dummy.json"
+    "nights/2026-07-12-fitbit-dummy.json",
+    "nights/2026-07-16-apple-watch.json",
+    "nights/2026-07-17-apple-watch.json",
+    "nights/2026-07-18-apple-watch.json",
+    "nights/2026-07-19-oura.json",
+    "nights/2026-07-21-apple-watch.json"
   ]
 }

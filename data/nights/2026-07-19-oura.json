@@ -1,0 +1,16 @@
+{
+  "id": "2026-07-19-oura",
+  "date": "2026-07-19",
+  "notes": "ALP SleepScope Sunday recording. Oura wake day 2026-07-20 is not in Oura_sleep_Jul_18_19.json yet — add that day to the export before comparing.",
+  "reference": {
+    "provider": "sleepscope",
+    "path": "../raw/sleepscope/sleepscope_ALP_2026_Jul_19_Sunday.csv"
+  },
+  "comparisons": [
+    {
+      "provider": "oura",
+      "path": "../raw/oura/Oura_sleep_Jul_18_19.json",
+      "day": "2026-07-19"
+    }
+  ]
+}

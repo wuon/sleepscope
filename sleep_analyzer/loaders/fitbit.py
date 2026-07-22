@@ -21,7 +21,8 @@ from sleep_analyzer.timeline import (
 class FitbitLoader:
     name = "fitbit"
 
-    def load(self, path: Path) -> BinarySession:
+    def load(self, path: Path, *, day: str | None = None) -> BinarySession:
+        del day  # unused; shared loader signature with multi-day providers
         path = Path(path)
         with path.open(encoding="utf-8") as handle:
             payload = json.load(handle)

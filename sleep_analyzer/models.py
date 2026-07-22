@@ -84,6 +84,8 @@ class NightComparison:
 class DataSource:
     provider: str
     path: str
+    # Optional wake-day filter (YYYY-MM-DD) for multi-day exports (e.g. Oura).
+    day: str | None = None
 
 
 @dataclass(frozen=True)

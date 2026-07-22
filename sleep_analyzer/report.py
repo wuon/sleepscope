@@ -1,26 +1,34 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Sequence
+from zoneinfo import ZoneInfo
 
 from sleep_analyzer.models import BinarySession, NightComparison
-from sleep_analyzer.timeline import BinaryLabel, Epoch, EpochTimeline, ensure_aware
+from sleep_analyzer.timeline import BinaryLabel, ensure_aware
 
 
-# Lane colors — SleepScope vs Fitbit, Awake vs Sleep.
+# Plot axis in Pacific wall time (matches SleepScope default + Apple Watch offsets).
+_PLOT_TZ = ZoneInfo("America/Los_Angeles")
+
+# Lane colors — SleepScope vs wearable, Awake vs Sleep.
 COLORS = {
     ("sleepscope", BinaryLabel.AWAKE.value): "#F2A7C2",
     ("sleepscope", BinaryLabel.SLEEP.value): "#5B8DEF",
     ("fitbit", BinaryLabel.AWAKE.value): "#E85D75",
     ("fitbit", BinaryLabel.SLEEP.value): "#2DD4BF",
+    ("apple_watch", BinaryLabel.AWAKE.value): "#F59E0B",
+    ("apple_watch", BinaryLabel.SLEEP.value): "#0EA5E9",
+    ("oura", BinaryLabel.AWAKE.value): "#C084FC",
+    ("oura", BinaryLabel.SLEEP.value): "#34D399",
 }
 
 
 def format_console_report(comparisons: Sequence[NightComparison]) -> str:
     lines: list[str] = []
-    lines.append("SleepScope vs Fitbit — Sleep / Awake timelines")
+    lines.append("SleepScope vs wearable — Sleep / Awake timelines")
     lines.append("=" * 64)
     lines.append("")
     for item in comparisons:
@@ -67,7 +75,7 @@ def write_hypnogram_plots(
     comparisons: Sequence[NightComparison],
     output_dir: Path,
 ) -> list[Path]:
-    """One condensed Awake/Sleep hypnogram per night comparing both providers."""
+    """One stacked Awake/Sleep hypnogram per night (SleepScope above, wearable below)."""
     if not comparisons:
         return []
 
@@ -100,76 +108,40 @@ def _draw_comparison_hypnogram(
     Line2D,
 ) -> None:
     ref = item.reference
-    cmp = _align_session_to_reference(item.comparison, item.reference)
+    cmp = item.comparison
 
-    fig, ax = plt.subplots(figsize=(14, 4.5))
+    fig, axes = plt.subplots(
+        nrows=2,
+        ncols=1,
+        figsize=(14, 6.5),
+        sharex=True,
+        gridspec_kw={"hspace": 0.28},
+    )
     fig.patch.set_facecolor("#0B1220")
-    ax.set_facecolor("#0B1220")
-
-    lane_y = {
-        BinaryLabel.AWAKE.value: 1.0,
-        BinaryLabel.SLEEP.value: 0.0,
-    }
-    lane_half = 0.18
-    provider_offset = {
-        "sleepscope": 0.08,
-        cmp.provider: -0.08,
-    }
 
     t_min = _to_plot_time(min(ref.start, cmp.start))
     t_max = _to_plot_time(max(ref.end, cmp.end))
     if t_max <= t_min:
         t_max = t_min + timedelta(minutes=30)
 
-    x_min = mdates.date2num(t_min)
-    x_max = mdates.date2num(t_max)
+    panels = (
+        (axes[0], ref, "SleepScope"),
+        (axes[1], cmp, cmp.provider),
+    )
+    for ax, session, title in panels:
+        _draw_provider_panel(ax, session, title, t_min, t_max, mdates, FancyBboxPatch, Rectangle)
 
-    for label, y in lane_y.items():
-        track = FancyBboxPatch(
-            (x_min, y - 0.28),
-            max(x_max - x_min, 1e-6),
-            0.56,
-            boxstyle="round,pad=0.01,rounding_size=0.08",
-            linewidth=0,
-            facecolor="#1A2336",
-            zorder=0,
-        )
-        ax.add_patch(track)
+    _configure_time_axis(axes[1], mdates, t_min, t_max)
+    axes[1].tick_params(axis="x", colors="#9AA8C0", labelsize=9)
+    axes[0].tick_params(axis="x", bottom=False, labelbottom=False)
 
-    for session in (ref, cmp):
-        offset = provider_offset.get(session.provider, 0.0)
-        _draw_session_blocks(ax, session, lane_y, lane_half, offset, mdates, Rectangle)
-        _draw_session_connectors(ax, session, lane_y, offset, mdates)
-
-    for label, y in lane_y.items():
-        ref_min = ref.awake_min if label == BinaryLabel.AWAKE.value else ref.asleep_min
-        cmp_min = cmp.awake_min if label == BinaryLabel.AWAKE.value else cmp.asleep_min
-        ax.text(
-            -0.02,
-            y,
-            f"{label}\nSS {_fmt_minutes(ref_min)}  ·  FB {_fmt_minutes(cmp_min)}",
-            transform=ax.get_yaxis_transform(),
-            ha="right",
-            va="center",
-            color="#E8EEF8",
-            fontsize=10,
-            fontweight="medium",
-            clip_on=False,
-        )
-
-    ax.set_ylim(-0.55, 1.55)
-    ax.set_xlim(x_min, x_max)
-    _configure_time_axis(ax, mdates, t_min, t_max)
-    ax.tick_params(axis="x", colors="#9AA8C0", labelsize=9)
-    ax.tick_params(axis="y", left=False, labelleft=False)
-    for spine in ax.spines.values():
-        spine.set_visible(False)
-    ax.set_title(
+    fig.suptitle(
         f"{item.night_id}  —  SleepScope vs {cmp.provider}",
         color="#E8EEF8",
         fontsize=12,
-        pad=12,
-        loc="left",
+        x=0.02,
+        ha="left",
+        y=0.98,
     )
 
     legend = [
@@ -190,18 +162,86 @@ def _draw_comparison_hypnogram(
             label=f"{cmp.provider} Sleep",
         ),
     ]
-    ax.legend(
+    fig.legend(
         handles=legend,
         loc="upper right",
         frameon=False,
         labelcolor="#C5D0E0",
         fontsize=8,
         ncol=2,
+        bbox_to_anchor=(0.98, 0.99),
     )
 
-    fig.tight_layout()
+    fig.subplots_adjust(left=0.14, right=0.98, top=0.90, bottom=0.08, hspace=0.32)
     fig.savefig(path, dpi=140, facecolor=fig.get_facecolor())
     plt.close(fig)
+
+
+def _draw_provider_panel(
+    ax,
+    session: BinarySession,
+    title: str,
+    t_min: datetime,
+    t_max: datetime,
+    mdates,
+    FancyBboxPatch,
+    Rectangle,
+) -> None:
+    ax.set_facecolor("#0B1220")
+
+    lane_y = {
+        BinaryLabel.AWAKE.value: 1.0,
+        BinaryLabel.SLEEP.value: 0.0,
+    }
+    lane_half = 0.22
+
+    x_min = mdates.date2num(t_min)
+    x_max = mdates.date2num(t_max)
+
+    for y in lane_y.values():
+        track = FancyBboxPatch(
+            (x_min, y - 0.28),
+            max(x_max - x_min, 1e-6),
+            0.56,
+            boxstyle="round,pad=0.01,rounding_size=0.08",
+            linewidth=0,
+            facecolor="#1A2336",
+            zorder=0,
+        )
+        ax.add_patch(track)
+
+    _draw_session_blocks(ax, session, lane_y, lane_half, 0.0, mdates, Rectangle)
+    _draw_session_connectors(ax, session, lane_y, 0.0, mdates)
+
+    for label, y in lane_y.items():
+        minutes = session.awake_min if label == BinaryLabel.AWAKE.value else session.asleep_min
+        ax.text(
+            -0.02,
+            y,
+            f"{label}\n{_fmt_minutes(minutes)}",
+            transform=ax.get_yaxis_transform(),
+            ha="right",
+            va="center",
+            color="#E8EEF8",
+            fontsize=10,
+            fontweight="medium",
+            clip_on=False,
+        )
+
+    ax.set_ylim(-0.55, 1.55)
+    ax.set_xlim(x_min, x_max)
+    ax.tick_params(axis="y", left=False, labelleft=False)
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+    ax.set_ylabel(
+        title,
+        color="#C5D0E0",
+        fontsize=10,
+        rotation=0,
+        ha="right",
+        va="center",
+        labelpad=48,
+    )
 
 
 def _configure_time_axis(ax, mdates, t_min: datetime, t_max: datetime) -> None:
@@ -220,33 +260,9 @@ def _configure_time_axis(ax, mdates, t_min: datetime, t_max: datetime) -> None:
         ax.xaxis.set_major_formatter(mdates.DateFormatter("%m/%d %H:%M"))
 
 
-def _align_session_to_reference(session: BinarySession, reference: BinarySession) -> BinarySession:
-    """Shift a session onto the reference clock when the two barely overlap."""
-    ref_start = ensure_aware(reference.start)
-    ref_end = ensure_aware(reference.end)
-    sess_start = ensure_aware(session.start)
-    sess_end = ensure_aware(session.end)
-
-    overlap_start = max(ref_start, sess_start)
-    overlap_end = min(ref_end, sess_end)
-    overlap_min = max(0.0, (overlap_end - overlap_start).total_seconds() / 60.0)
-    if overlap_min >= 15.0:
-        return session
-
-    shift = ref_start - sess_start
-    shifted = EpochTimeline(
-        epochs=[
-            Epoch(start=ensure_aware(epoch.start) + shift, label=epoch.label)
-            for epoch in session.timeline.epochs
-        ],
-        provider=session.provider,
-    )
-    return BinarySession(provider=session.provider, timeline=shifted)
-
-
 def _to_plot_time(value: datetime) -> datetime:
-    """Naive UTC datetime for matplotlib date converters."""
-    aware = ensure_aware(value).astimezone(timezone.utc)
+    """Naive Pacific wall time for matplotlib date converters."""
+    aware = ensure_aware(value).astimezone(_PLOT_TZ)
     return aware.replace(tzinfo=None)
 
 
